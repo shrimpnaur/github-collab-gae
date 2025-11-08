@@ -1,0 +1,494 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-11-08">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="weight_norm" type="double" />
+      <attribute id="3" title="viz_width" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="degree" type="long" />
+      <attribute id="1" title="community" type="long" />
+    </attributes>
+    <nodes>
+      <node id="chris7716" label="chris7716">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="kevintab95" label="kevintab95">
+        <attvalues>
+          <attvalue for="0" value="23" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="PedroSampaioDias" label="PedroSampaioDias">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="Naman3120-Web" label="Naman3120-Web">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ansingh0305" label="Ansingh0305">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="piyush140104" label="piyush140104">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="jayam04" label="jayam04">
+        <attvalues>
+          <attvalue for="0" value="114" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="FaithAbiola" label="FaithAbiola">
+        <attvalues>
+          <attvalue for="0" value="76" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="U8NWXD" label="U8NWXD">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="HardikGoyal2003" label="HardikGoyal2003">
+        <attvalues>
+          <attvalue for="0" value="83" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Nik-09" label="Nik-09">
+        <attvalues>
+          <attvalue for="0" value="64" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="kishansinghifs1" label="kishansinghifs1">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="mosin74" label="mosin74">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="KartikSuryavanshi" label="KartikSuryavanshi">
+        <attvalues>
+          <attvalue for="0" value="42" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="NITISH084" label="NITISH084">
+        <attvalues>
+          <attvalue for="0" value="81" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="mon4our" label="mon4our">
+        <attvalues>
+          <attvalue for="0" value="65" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="seanlip" label="seanlip">
+        <attvalues>
+          <attvalue for="0" value="78" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="Helper2020" label="Helper2020">
+        <attvalues>
+          <attvalue for="0" value="229" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="zakkib" label="zakkib">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="chris7716" target="Helper2020" id="0" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0.03508771929824561" />
+          <attvalue for="3" value="1.1403508771929824" />
+        </attvalues>
+      </edge>
+      <edge source="chris7716" target="Nik-09" id="1" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="chris7716" target="FaithAbiola" id="2" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="chris7716" target="seanlip" id="3" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="kevintab95" target="Helper2020" id="4" weight="13">
+        <attvalues>
+          <attvalue for="2" value="0.22807017543859648" />
+          <attvalue for="3" value="1.912280701754386" />
+        </attvalues>
+      </edge>
+      <edge source="kevintab95" target="Nik-09" id="5" weight="3">
+        <attvalues>
+          <attvalue for="2" value="0.05263157894736842" />
+          <attvalue for="3" value="1.2105263157894737" />
+        </attvalues>
+      </edge>
+      <edge source="kevintab95" target="PedroSampaioDias" id="6" weight="4">
+        <attvalues>
+          <attvalue for="2" value="0.07017543859649122" />
+          <attvalue for="3" value="1.280701754385965" />
+        </attvalues>
+      </edge>
+      <edge source="kevintab95" target="HardikGoyal2003" id="7" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="kevintab95" target="FaithAbiola" id="8" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0.03508771929824561" />
+          <attvalue for="3" value="1.1403508771929824" />
+        </attvalues>
+      </edge>
+      <edge source="Naman3120-Web" target="jayam04" id="9" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="Naman3120-Web" target="NITISH084" id="10" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="Naman3120-Web" target="FaithAbiola" id="11" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="piyush140104" target="seanlip" id="12" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="piyush140104" target="jayam04" id="13" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="jayam04" target="Nik-09" id="14" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0.03508771929824561" />
+          <attvalue for="3" value="1.1403508771929824" />
+        </attvalues>
+      </edge>
+      <edge source="jayam04" target="FaithAbiola" id="15" weight="3">
+        <attvalues>
+          <attvalue for="2" value="0.05263157894736842" />
+          <attvalue for="3" value="1.2105263157894737" />
+        </attvalues>
+      </edge>
+      <edge source="jayam04" target="NITISH084" id="16" weight="30">
+        <attvalues>
+          <attvalue for="2" value="0.5263157894736842" />
+          <attvalue for="3" value="3.1052631578947367" />
+        </attvalues>
+      </edge>
+      <edge source="jayam04" target="HardikGoyal2003" id="17" weight="33">
+        <attvalues>
+          <attvalue for="2" value="0.5789473684210527" />
+          <attvalue for="3" value="3.3157894736842106" />
+        </attvalues>
+      </edge>
+      <edge source="jayam04" target="Helper2020" id="18" weight="19">
+        <attvalues>
+          <attvalue for="2" value="0.3333333333333333" />
+          <attvalue for="3" value="2.333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="jayam04" target="mosin74" id="19" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="jayam04" target="zakkib" id="20" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="jayam04" target="mon4our" id="21" weight="19">
+        <attvalues>
+          <attvalue for="2" value="0.3333333333333333" />
+          <attvalue for="3" value="2.333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="jayam04" target="seanlip" id="22" weight="3">
+        <attvalues>
+          <attvalue for="2" value="0.05263157894736842" />
+          <attvalue for="3" value="1.2105263157894737" />
+        </attvalues>
+      </edge>
+      <edge source="jayam04" target="KartikSuryavanshi" id="23" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="FaithAbiola" target="Helper2020" id="24" weight="52">
+        <attvalues>
+          <attvalue for="2" value="0.9122807017543859" />
+          <attvalue for="3" value="4.649122807017544" />
+        </attvalues>
+      </edge>
+      <edge source="FaithAbiola" target="Nik-09" id="25" weight="8">
+        <attvalues>
+          <attvalue for="2" value="0.14035087719298245" />
+          <attvalue for="3" value="1.5614035087719298" />
+        </attvalues>
+      </edge>
+      <edge source="FaithAbiola" target="NITISH084" id="26" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0.03508771929824561" />
+          <attvalue for="3" value="1.1403508771929824" />
+        </attvalues>
+      </edge>
+      <edge source="FaithAbiola" target="KartikSuryavanshi" id="27" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="FaithAbiola" target="mon4our" id="28" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="FaithAbiola" target="seanlip" id="29" weight="5">
+        <attvalues>
+          <attvalue for="2" value="0.08771929824561403" />
+          <attvalue for="3" value="1.3508771929824561" />
+        </attvalues>
+      </edge>
+      <edge source="U8NWXD" target="KartikSuryavanshi" id="30" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="HardikGoyal2003" target="kishansinghifs1" id="31" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0.03508771929824561" />
+          <attvalue for="3" value="1.1403508771929824" />
+        </attvalues>
+      </edge>
+      <edge source="HardikGoyal2003" target="NITISH084" id="32" weight="4">
+        <attvalues>
+          <attvalue for="2" value="0.07017543859649122" />
+          <attvalue for="3" value="1.280701754385965" />
+        </attvalues>
+      </edge>
+      <edge source="HardikGoyal2003" target="seanlip" id="33" weight="3">
+        <attvalues>
+          <attvalue for="2" value="0.05263157894736842" />
+          <attvalue for="3" value="1.2105263157894737" />
+        </attvalues>
+      </edge>
+      <edge source="HardikGoyal2003" target="mosin74" id="34" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0.03508771929824561" />
+          <attvalue for="3" value="1.1403508771929824" />
+        </attvalues>
+      </edge>
+      <edge source="HardikGoyal2003" target="Nik-09" id="35" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="HardikGoyal2003" target="KartikSuryavanshi" id="36" weight="11">
+        <attvalues>
+          <attvalue for="2" value="0.19298245614035087" />
+          <attvalue for="3" value="1.7719298245614035" />
+        </attvalues>
+      </edge>
+      <edge source="HardikGoyal2003" target="Helper2020" id="37" weight="9">
+        <attvalues>
+          <attvalue for="2" value="0.15789473684210525" />
+          <attvalue for="3" value="1.631578947368421" />
+        </attvalues>
+      </edge>
+      <edge source="HardikGoyal2003" target="zakkib" id="38" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="HardikGoyal2003" target="mon4our" id="39" weight="16">
+        <attvalues>
+          <attvalue for="2" value="0.2807017543859649" />
+          <attvalue for="3" value="2.1228070175438596" />
+        </attvalues>
+      </edge>
+      <edge source="Nik-09" target="Helper2020" id="40" weight="28">
+        <attvalues>
+          <attvalue for="2" value="0.49122807017543857" />
+          <attvalue for="3" value="2.9649122807017543" />
+        </attvalues>
+      </edge>
+      <edge source="Nik-09" target="seanlip" id="41" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="Nik-09" target="mon4our" id="42" weight="7">
+        <attvalues>
+          <attvalue for="2" value="0.12280701754385964" />
+          <attvalue for="3" value="1.4912280701754386" />
+        </attvalues>
+      </edge>
+      <edge source="Nik-09" target="KartikSuryavanshi" id="43" weight="9">
+        <attvalues>
+          <attvalue for="2" value="0.15789473684210525" />
+          <attvalue for="3" value="1.631578947368421" />
+        </attvalues>
+      </edge>
+      <edge source="Nik-09" target="mosin74" id="44" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="Nik-09" target="NITISH084" id="45" weight="3">
+        <attvalues>
+          <attvalue for="2" value="0.05263157894736842" />
+          <attvalue for="3" value="1.2105263157894737" />
+        </attvalues>
+      </edge>
+      <edge source="kishansinghifs1" target="NITISH084" id="46" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0.03508771929824561" />
+          <attvalue for="3" value="1.1403508771929824" />
+        </attvalues>
+      </edge>
+      <edge source="kishansinghifs1" target="seanlip" id="47" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="mosin74" target="NITISH084" id="48" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0.03508771929824561" />
+          <attvalue for="3" value="1.1403508771929824" />
+        </attvalues>
+      </edge>
+      <edge source="mosin74" target="Helper2020" id="49" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0.03508771929824561" />
+          <attvalue for="3" value="1.1403508771929824" />
+        </attvalues>
+      </edge>
+      <edge source="mosin74" target="mon4our" id="50" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0.017543859649122806" />
+          <attvalue for="3" value="1.0701754385964912" />
+        </attvalues>
+      </edge>
+      <edge source="KartikSuryavanshi" target="Helper2020" id="51" weight="7">
+        <attvalues>
+          <attvalue for="2" value="0.12280701754385964" />
+          <attvalue for="3" value="1.4912280701754386" />
+        </attvalues>
+      </edge>
+      <edge source="KartikSuryavanshi" target="mon4our" id="52" weight="5">
+        <attvalues>
+          <attvalue for="2" value="0.08771929824561403" />
+          <attvalue for="3" value="1.3508771929824561" />
+        </attvalues>
+      </edge>
+      <edge source="KartikSuryavanshi" target="NITISH084" id="53" weight="5">
+        <attvalues>
+          <attvalue for="2" value="0.08771929824561403" />
+          <attvalue for="3" value="1.3508771929824561" />
+        </attvalues>
+      </edge>
+      <edge source="KartikSuryavanshi" target="seanlip" id="54" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0.03508771929824561" />
+          <attvalue for="3" value="1.1403508771929824" />
+        </attvalues>
+      </edge>
+      <edge source="NITISH084" target="seanlip" id="55" weight="4">
+        <attvalues>
+          <attvalue for="2" value="0.07017543859649122" />
+          <attvalue for="3" value="1.280701754385965" />
+        </attvalues>
+      </edge>
+      <edge source="NITISH084" target="Helper2020" id="56" weight="26">
+        <attvalues>
+          <attvalue for="2" value="0.45614035087719296" />
+          <attvalue for="3" value="2.824561403508772" />
+        </attvalues>
+      </edge>
+      <edge source="NITISH084" target="mon4our" id="57" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0.03508771929824561" />
+          <attvalue for="3" value="1.1403508771929824" />
+        </attvalues>
+      </edge>
+      <edge source="mon4our" target="Helper2020" id="58" weight="14">
+        <attvalues>
+          <attvalue for="2" value="0.24561403508771928" />
+          <attvalue for="3" value="1.9824561403508771" />
+        </attvalues>
+      </edge>
+      <edge source="seanlip" target="Helper2020" id="59" weight="57">
+        <attvalues>
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="5.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,28 @@
+{
+  "repo": "oppia/oppia",
+  "commits_sampled": 100,
+  "nodes": 19,
+  "edges": 60,
+  "top5_degree": [
+    [
+      "Helper2020",
+      229
+    ],
+    [
+      "jayam04",
+      114
+    ],
+    [
+      "HardikGoyal2003",
+      83
+    ],
+    [
+      "NITISH084",
+      81
+    ],
+    [
+      "seanlip",
+      78
+    ]
+  ]
+}
