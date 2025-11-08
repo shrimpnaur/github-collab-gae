@@ -1,4 +1,4 @@
-#![brief]
+
 # GitHub Collaboration Graph — SNA & Analysis
 
 This repository contains a pipeline to fetch commits from a GitHub repository, build a weighted co-edit (collaboration) graph of contributors, compute basic metrics, and export files for visualization and further analysis.
@@ -73,9 +73,3 @@ Suggested next changes I can make
 License
 This project is intended for educational and research use. Reuse is permitted with attribution.
 
-Contributors
-- Shria Nair — pipeline implementation, visualization, documentation
-
----
-
-If you want, I can add a `requirements.txt` or an `examples/` section with the exact commands you used (I can auto-fill the `--repo` value based on recent runs). Tell me which you prefer.
