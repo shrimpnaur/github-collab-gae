@@ -228,6 +228,7 @@ def main():
     parser.add_argument("--force_refresh", action="store_true", help="Force re-fetch from GitHub (ignore cached commits)")
     parser.add_argument("--stoplist", nargs="*", default=None, help="Additional filenames to ignore (space separated)")
     parser.add_argument("--make_html", action="store_true", help="Make interactive HTML via pyvis (if installed)")
+    parser.add_argument("--data-root", type=str, default="data", help="Data root directory (contains raw/ and processed/ subfolders)")
     args = parser.parse_args()
 
     token = os.environ.get("GITHUB_TOKEN")
@@ -238,6 +239,17 @@ def main():
     stoplist = set(DEFAULT_STOPLIST)
     if args.stoplist:
         stoplist.update(args.stoplist)
+
+    # allow overriding the data directories via CLI (keeps backward compatibility)
+    global RAW_DIR, PROC_DIR, RAW_COMMITS_FILE, GEXF_OUT, EDGES_CSV, NODES_CSV, SUMMARY_JSON, PYVIS_HTML
+    RAW_DIR = os.path.join(args.data_root, "raw")
+    PROC_DIR = os.path.join(args.data_root, "processed")
+    RAW_COMMITS_FILE = os.path.join(RAW_DIR, "commits.json")
+    GEXF_OUT = os.path.join(PROC_DIR, "github_collab_graph_clean.gexf")
+    EDGES_CSV = os.path.join(PROC_DIR, "edges.csv")
+    NODES_CSV = os.path.join(PROC_DIR, "nodes.csv")
+    SUMMARY_JSON = os.path.join(PROC_DIR, "summary.json")
+    PYVIS_HTML = os.path.join(PROC_DIR, "github_collab_graph.html")
 
     commits_data = fetch_commits_from_github(token, args.repo, commit_limit=args.commit_limit, force_refresh=args.force_refresh)
     file_to_authors = build_file_to_authors(commits_data, stoplist=stoplist)

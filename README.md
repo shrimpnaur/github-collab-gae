@@ -49,6 +49,37 @@ Notes
 - If you run `run_pipeline.py` while located inside `notebooks/`, outputs will be created under `notebooks/data/processed/`. Paths used by scripts are relative to the working directory.
 - To skip the interactive HTML (PyVis) step, omit `--make_html`.
 
+Recommended workflow
+- Create and activate a repo-root virtual environment so the same interpreter is used whether you run scripts from the project root or from the `notebooks/` folder:
+
+```bash
+# from repository root
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt   # or install the main deps shown above
+```
+
+Working-directory behavior (clarified)
+- Scripts read/write data relative to a `data-root` (default `data`). You can override it with `--data-root <path>` so the scripts don't depend on which folder you're in.
+- Example behaviours:
+	- Running from repo root with default `--data-root`: outputs go to `data/processed/`.
+	- Running from `notebooks/` with `--data-root notebooks/data`: outputs go to `notebooks/data/processed/`.
+	- If you forget `--data-root` and have previously written outputs into the other folder, point the script at that folder to re-use those files.
+
+
+Data directory flexibility
+- The scripts now accept a `--data-root` argument so you can explicitly point to where `raw/` and `processed/` live. By default the root is `data` (so processed files are written to `data/processed`).
+
+Examples:
+
+```bash
+# run pipeline and write outputs under repo-root `data/processed` (default)
+python3 notebooks/run_pipeline.py --repo owner/repo --commit_limit 100
+
+# run pipeline but write/read from `notebooks/data/processed`
+python3 notebooks/run_pipeline.py --repo owner/repo --commit_limit 100 --data-root notebooks/data
+```
+
 Troubleshooting
 - `ModuleNotFoundError: No module named 'github'`: install `PyGithub` in the active venv (`pip install PyGithub`).
 - `AttributeError: 'NoneType' object has no attribute 'render'` when creating interactive HTML — usually a Jinja2/template issue inside PyVis. Fix by installing/upgrading Jinja2 in the venv:
