@@ -1,0 +1,1267 @@
+[
+  {
+    "sha": "43aae2e9cd074c6473a8e414b56021e070b780b5",
+    "author": null,
+    "date": "2025-11-10T15:52:53+00:00",
+    "files": [
+      "third_party/xla/xla/backends/gpu/runtime/BUILD",
+      "third_party/xla/xla/backends/gpu/runtime/buffers_float_check_thunk.cc",
+      "third_party/xla/xla/backends/gpu/runtime/buffers_float_check_thunk.h",
+      "third_party/xla/xla/backends/gpu/runtime/buffers_float_check_thunk_test.cc",
+      "third_party/xla/xla/stream_executor/cuda/cuda_executor.cc"
+    ]
+  },
+  {
+    "sha": "a819c35e82964a758211bb0aac213c95dccce77f",
+    "author": "WillFroom",
+    "date": "2025-11-10T15:39:00+00:00",
+    "files": [
+      "third_party/xla/xla/backends/cpu/codegen/tiled/tiled_kernel_test.py"
+    ]
+  },
+  {
+    "sha": "006b29324e6fc25450146aa4cf8166c7f8a26851",
+    "author": "mkuperst",
+    "date": "2025-11-10T15:19:05+00:00",
+    "files": [
+      "third_party/xla/xla/hlo/transforms/BUILD",
+      "third_party/xla/xla/hlo/transforms/call_splitter.cc",
+      "third_party/xla/xla/hlo/transforms/call_splitter.h",
+      "third_party/xla/xla/hlo/transforms/call_splitter_test.cc"
+    ]
+  },
+  {
+    "sha": "201d263d38e546f34f14bda8203a3ea0f379b6e5",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-10T14:27:03+00:00",
+    "files": [
+      "third_party/xla/xla/hlo/analysis/symbolic_expr.cc",
+      "third_party/xla/xla/hlo/analysis/symbolic_expr.h",
+      "third_party/xla/xla/hlo/analysis/symbolic_expr_test.cc",
+      "third_party/xla/xla/hlo/analysis/symbolic_map.cc",
+      "third_party/xla/xla/hlo/analysis/symbolic_map_test.cc"
+    ]
+  },
+  {
+    "sha": "b1f56471b4ee239e6f85ee1452a1cc9ecadc67e2",
+    "author": "loislo",
+    "date": "2025-11-10T14:23:25+00:00",
+    "files": [
+      "third_party/xla/xla/backends/gpu/runtime/BUILD",
+      "third_party/xla/xla/backends/gpu/runtime/thunk_buffer_debug_checksum.cc",
+      "third_party/xla/xla/backends/gpu/runtime/thunk_buffer_debug_checksum.h",
+      "third_party/xla/xla/backends/gpu/runtime/thunk_buffer_debug_filter.cc",
+      "third_party/xla/xla/backends/gpu/runtime/thunk_buffer_debug_filter.h",
+      "third_party/xla/xla/backends/gpu/runtime/thunk_buffer_debug_float_check.cc",
+      "third_party/xla/xla/backends/gpu/runtime/thunk_buffer_debug_float_check.h",
+      "third_party/xla/xla/backends/gpu/runtime/thunk_buffer_debug_pass.cc"
+    ]
+  },
+  {
+    "sha": "fa3c810dc0c94f61760d4480955036659ad9bf51",
+    "author": "thomasjoerg",
+    "date": "2025-11-10T14:15:44+00:00",
+    "files": [
+      "third_party/xla/xla/hlo/transforms/expanders/dot_decomposer.cc",
+      "third_party/xla/xla/hlo/transforms/expanders/dot_decomposer_test.cc",
+      "third_party/xla/xla/shape_util.cc",
+      "third_party/xla/xla/shape_util.h",
+      "third_party/xla/xla/shape_util_test.cc"
+    ]
+  },
+  {
+    "sha": "88209a9ebc708076639a714f1405aa616be39db2",
+    "author": "mooskagh",
+    "date": "2025-11-10T13:50:20+00:00",
+    "files": [
+      "tensorflow/compiler/tf2xla/tf2xla_test.cc",
+      "tensorflow/compiler/tf2xla/xla_compiler.cc"
+    ]
+  },
+  {
+    "sha": "f3605e5c7f915c982add86edf814f153c9a57389",
+    "author": "WillFroom",
+    "date": "2025-11-10T13:34:47+00:00",
+    "files": [
+      "third_party/xla/xla/backends/cpu/codegen/BUILD",
+      "third_party/xla/xla/backends/cpu/codegen/fusion_compiler.cc",
+      "third_party/xla/xla/backends/cpu/codegen/fusion_compiler.h",
+      "third_party/xla/xla/backends/cpu/codegen/tiled/transforms/tests/BUILD",
+      "third_party/xla/xla/backends/cpu/codegen/tiled/transforms/tests/arith_to_vector.mlir",
+      "third_party/xla/xla/backends/cpu/codegen/tiled/transforms/tests/lower_xtile_entry.mlir",
+      "third_party/xla/xla/backends/cpu/codegen/tiled/transforms/tests/math_to_vector.mlir",
+      "third_party/xla/xla/backends/cpu/codegen/tiled/transforms/tests/rewrite_dynamic_vector_extract.mlir",
+      "third_party/xla/xla/backends/cpu/codegen/tiled/transforms/tests/shlo_to_vector.mlir",
+      "third_party/xla/xla/backends/cpu/codegen/tiled/transforms/tests/tensor_ops_to_vector.mlir",
+      "third_party/xla/xla/backends/cpu/codegen/tiled/transforms/tests/xtile_to_vector.mlir",
+      "third_party/xla/xla/backends/cpu/codegen/tools/BUILD",
+      "third_party/xla/xla/backends/cpu/codegen/tools/fusion_compiler_opt.cc"
+    ]
+  },
+  {
+    "sha": "56402e5cf5f1a14b552b73403b697223b99ff32e",
+    "author": "WillFroom",
+    "date": "2025-11-10T13:34:41+00:00",
+    "files": [
+      "third_party/xla/xla/backends/gpu/codegen/triton/fusion_emitter.cc",
+      "third_party/xla/xla/backends/gpu/codegen/triton/fusion_emitter_device_test.cc",
+      "third_party/xla/xla/backends/gpu/codegen/triton/transforms/BUILD",
+      "third_party/xla/xla/backends/gpu/codegen/triton/transforms/stablehlo_lower_to_triton.cc",
+      "third_party/xla/xla/backends/gpu/codegen/triton/transforms/tensor_lower_to_triton.cc",
+      "third_party/xla/xla/backends/gpu/codegen/triton/transforms/tests/stable_hlo_to_triton_lowering.mlir",
+      "third_party/xla/xla/backends/gpu/codegen/triton/transforms/tests/tensor_to_triton_lowering.mlir",
+      "third_party/xla/xla/backends/gpu/codegen/triton/transforms/triton_xla_convert_tensor_to_scalar_pass.cc",
+      "third_party/xla/xla/backends/gpu/codegen/triton/transforms/triton_xla_lower_xtile_pass.cc",
+      "third_party/xla/xla/codegen/xtile/ir/tests/to_from_tensor.mlir",
+      "third_party/xla/xla/codegen/xtile/ir/xtile_ops.cc",
+      "third_party/xla/xla/codegen/xtile/ir/xtile_ops.td"
+    ]
+  },
+  {
+    "sha": "088b21c29e0fdc058835145776cd27d8adb12686",
+    "author": "loislo",
+    "date": "2025-11-10T13:28:44+00:00",
+    "files": [
+      "third_party/xla/xla/backends/gpu/runtime/BUILD",
+      "third_party/xla/xla/backends/gpu/runtime/thunk_buffer_debug_pass.cc"
+    ]
+  },
+  {
+    "sha": "7ea5845716a48c8476a0822c9256d28aeaaa988c",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-10T12:35:37+00:00",
+    "files": [
+      "tensorflow/lite/experimental/acceleration/compatibility/gpu_compatibility.bin"
+    ]
+  },
+  {
+    "sha": "8d416731843034c6917bcefed05962a07f851ee7",
+    "author": "alekstheod",
+    "date": "2025-11-10T11:25:23+00:00",
+    "files": [
+      "third_party/xla/third_party/rocm_device_libs/build_defs.bzl",
+      "third_party/xla/third_party/rocm_device_libs/rocm_device_libs.BUILD"
+    ]
+  },
+  {
+    "sha": "42eb0dbe341e4b16f829da6f123b57ee460906a9",
+    "author": "akuegel",
+    "date": "2025-11-10T10:28:50+00:00",
+    "files": [
+      "third_party/xla/.github/workflows/bazel_query.yml",
+      "third_party/xla/workspace0.bzl"
+    ]
+  },
+  {
+    "sha": "978f51e45d7ce880a036ecd5d151886010a6e42c",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-10T09:04:01+00:00",
+    "files": [
+      "tensorflow/python/compat/compat.py"
+    ]
+  },
+  {
+    "sha": "1ea54785355ebe435b0fb5129b6300b6074381b9",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-10T09:03:50+00:00",
+    "files": [
+      "tensorflow/core/public/version.h"
+    ]
+  },
+  {
+    "sha": "0f0b6793cb034f8047b390885755f4d810f523ad",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-10T08:39:35+00:00",
+    "files": [
+      "tensorflow/python/platform/BUILD"
+    ]
+  },
+  {
+    "sha": "049bf85ef8a5cc33e1fa4133b86250b30b63f964",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-10T08:05:36+00:00",
+    "files": [
+      "tensorflow/lite/core/subgraph.cc"
+    ]
+  },
+  {
+    "sha": "768b244490b0b06a149abfb210b864a45fc767af",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-10T06:52:42+00:00",
+    "files": [
+      "tensorflow/core/framework/node_def_builder.cc",
+      "tensorflow/core/framework/node_def_builder.h",
+      "tensorflow/core/framework/node_def_builder_test.cc",
+      "tensorflow/core/framework/node_def_util.cc",
+      "tensorflow/core/framework/node_def_util.h",
+      "tensorflow/core/framework/node_def_util_test.cc",
+      "tensorflow/core/framework/node_properties_test.cc",
+      "tensorflow/core/framework/op.cc",
+      "tensorflow/core/framework/op.h",
+      "tensorflow/core/framework/op_compatibility_test.cc",
+      "tensorflow/core/framework/op_def_builder.cc",
+      "tensorflow/core/framework/op_def_builder.h",
+      "tensorflow/core/framework/op_def_builder_test.cc",
+      "tensorflow/core/framework/op_def_util.cc",
+      "tensorflow/core/framework/op_def_util.h",
+      "tensorflow/core/framework/op_def_util_test.cc",
+      "tensorflow/core/framework/op_gen_lib.cc",
+      "tensorflow/core/framework/op_gen_lib.h",
+      "tensorflow/core/framework/op_gen_lib_test.cc",
+      "tensorflow/core/framework/op_kernel.cc",
+      "tensorflow/core/framework/op_kernel.h",
+      "tensorflow/core/framework/op_kernel_test.cc",
+      "tensorflow/core/framework/op_kernel_test_base.h",
+      "tensorflow/core/framework/op_registration_test.cc",
+      "tensorflow/core/framework/op_segment.cc",
+      "tensorflow/core/framework/op_segment.h",
+      "tensorflow/core/framework/ops_util.cc",
+      "tensorflow/core/framework/queue_interface.h",
+      "tensorflow/core/framework/reader_base.cc",
+      "tensorflow/core/framework/reader_base.h",
+      "tensorflow/core/framework/reader_interface.h",
+      "tensorflow/core/framework/register_types_traits.h",
+      "tensorflow/core/framework/rendezvous.cc",
+      "tensorflow/core/framework/rendezvous.h",
+      "tensorflow/core/framework/rendezvous_test.cc",
+      "tensorflow/core/framework/resource_handle.h",
+      "tensorflow/core/framework/resource_handle_test.cc",
+      "tensorflow/core/framework/resource_mgr.cc",
+      "tensorflow/core/framework/resource_mgr.h",
+      "tensorflow/core/framework/resource_mgr_test.cc",
+      "tensorflow/core/framework/resource_op_kernel_test.cc",
+      "tensorflow/core/framework/run_handler.cc",
+      "tensorflow/core/framework/run_handler.h",
+      "tensorflow/core/framework/run_handler_test.cc",
+      "tensorflow/core/framework/run_handler_util.cc",
+      "tensorflow/core/framework/run_handler_util_test.cc",
+      "tensorflow/core/framework/session_state.h",
+      "tensorflow/core/framework/shape_inference.cc",
+      "tensorflow/core/framework/shape_inference.h"
+    ]
+  },
+  {
+    "sha": "5ff7541cb811d385fb069b94f2ca7eed4a87fbb1",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-10T06:51:04+00:00",
+    "files": [
+      "tensorflow/cc/gradients/array_grad.cc",
+      "tensorflow/cc/gradients/image_grad.cc",
+      "tensorflow/cc/gradients/image_grad_test.cc",
+      "tensorflow/cc/gradients/math_grad.cc",
+      "tensorflow/cc/gradients/nn_grad.cc"
+    ]
+  },
+  {
+    "sha": "f40a10e064561ed66c03359c7751ccc5ae03dc4d",
+    "author": "majnemer",
+    "date": "2025-11-10T01:59:20+00:00",
+    "files": [
+      "tensorflow/cc/framework/cc_op_gen_util.cc",
+      "tensorflow/compiler/mlir/tfr/utils/utils.cc"
+    ]
+  },
+  {
+    "sha": "420baf67d8c9fce3b66e435e7a4fdec57ecf4122",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-09T09:05:58+00:00",
+    "files": [
+      "tensorflow/python/compat/compat.py"
+    ]
+  },
+  {
+    "sha": "1c080b3cef3ba2894719eb5d1a5932ff3d184c66",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-09T09:03:34+00:00",
+    "files": [
+      "tensorflow/core/public/version.h"
+    ]
+  },
+  {
+    "sha": "d982af837acdce421f4af4dd577b7256117d56ac",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-09T07:19:33+00:00",
+    "files": [
+      "tensorflow/core/tpu/tpu_compile.cc",
+      "tensorflow/core/tpu/tpu_embedding_optimization_parameters_utils.cc",
+      "tensorflow/core/tpu/tpu_execute.h"
+    ]
+  },
+  {
+    "sha": "509b51ee995e42473ebddfeb45ef3b5075115774",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-09T07:19:10+00:00",
+    "files": [
+      "tensorflow/compiler/mlir/quantization/stablehlo/cc/io_test.cc"
+    ]
+  },
+  {
+    "sha": "dd422c3da173f365c7d8ed4c7588ff316a7f3f1d",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-09T06:36:42+00:00",
+    "files": [
+      "third_party/xla/xla/hlo/analysis/indexing_map.cc",
+      "third_party/xla/xla/hlo/analysis/indexing_map_serialization.cc",
+      "third_party/xla/xla/hlo/analysis/indexing_map_test.cc",
+      "third_party/xla/xla/hlo/analysis/indexing_test_utils.cc",
+      "third_party/xla/xla/hlo/analysis/symbolic_expr.cc"
+    ]
+  },
+  {
+    "sha": "edcc8f57d48484a4a17b1f1059dbd9eda1a9a723",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-09T06:22:09+00:00",
+    "files": [
+      "tensorflow/compiler/mlir/tensorflow/transforms/init_text_file_to_import.cc",
+      "tensorflow/compiler/mlir/tensorflow/transforms/init_text_file_to_import_test_pass.cc"
+    ]
+  },
+  {
+    "sha": "14886ffbaea67c418bc2616a401854fdcf0ea4ab",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-09T06:12:56+00:00",
+    "files": [
+      "tensorflow/compiler/mlir/tensorflow/translate/tools/parsers.cc",
+      "tensorflow/compiler/mlir/tensorflow/translate/tools/parsers.h"
+    ]
+  },
+  {
+    "sha": "059bac7fc990d945f0b6608a0b3ed6d78415eeec",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-09T06:12:01+00:00",
+    "files": [
+      "third_party/xla/xla/tsl/framework/allocator_registry.cc",
+      "third_party/xla/xla/tsl/framework/allocator_registry.h",
+      "third_party/xla/xla/tsl/framework/allocator_retry.cc",
+      "third_party/xla/xla/tsl/framework/cpu_allocator_impl.cc",
+      "third_party/xla/xla/tsl/framework/device_id_manager.cc"
+    ]
+  },
+  {
+    "sha": "07289c060d0a50f56f4b364e3b9ff4a6db556c33",
+    "author": "beckerhe",
+    "date": "2025-11-08T17:15:51+00:00",
+    "files": [
+      "third_party/xla/xla/stream_executor/BUILD",
+      "third_party/xla/xla/stream_executor/kernel_argument_packing_spec.cc",
+      "third_party/xla/xla/stream_executor/kernel_argument_packing_spec.h",
+      "third_party/xla/xla/stream_executor/kernel_argument_packing_spec.proto",
+      "third_party/xla/xla/stream_executor/kernel_argument_packing_spec_test.cc"
+    ]
+  },
+  {
+    "sha": "5fb239b99374207bd3d0c9bafd806265bc0c510d",
+    "author": "GleasonK",
+    "date": "2025-11-08T16:12:48+00:00",
+    "files": [
+      "third_party/xla/third_party/stablehlo/temporary.patch"
+    ]
+  },
+  {
+    "sha": "10b3aa992ed78df121fc6af470a63e3d25c3d5f7",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T16:04:33+00:00",
+    "files": [
+      "tensorflow/c/kernels/bitcast_op_test.cc",
+      "tensorflow/c/kernels/histogram_summary_op.cc",
+      "tensorflow/c/kernels/merge_summary_op.cc",
+      "tensorflow/c/kernels/summary_op.cc",
+      "tensorflow/c/kernels/summary_op_test.cc",
+      "tensorflow/c/kernels/tensor_shape_utils.cc"
+    ]
+  },
+  {
+    "sha": "b6ac345231f0e5f32a9e158e19ef6e32b74e635b",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T13:40:06+00:00",
+    "files": [
+      "tensorflow/c/experimental/filesystem/plugins/gcs/expiring_lru_cache_test.cc",
+      "tensorflow/c/experimental/filesystem/plugins/gcs/ram_file_block_cache_test.cc"
+    ]
+  },
+  {
+    "sha": "2606592c709af990c125f03dae973e9b5af53a9a",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T12:00:43+00:00",
+    "files": [
+      "tensorflow/c/experimental/ops/gen/common/case_format.cc",
+      "tensorflow/c/experimental/ops/gen/common/case_format.h",
+      "tensorflow/c/experimental/ops/gen/common/case_format_test.cc",
+      "tensorflow/c/experimental/ops/gen/common/controller.cc",
+      "tensorflow/c/experimental/ops/gen/common/controller.h",
+      "tensorflow/c/experimental/ops/gen/common/path_config.cc",
+      "tensorflow/c/experimental/ops/gen/common/path_config.h",
+      "tensorflow/c/experimental/ops/gen/common/source_code.cc",
+      "tensorflow/c/experimental/ops/gen/common/source_code.h",
+      "tensorflow/c/experimental/ops/gen/common/view_util.cc",
+      "tensorflow/c/experimental/ops/gen/common/view_util.h"
+    ]
+  },
+  {
+    "sha": "7c2de2a3df89aabbebabda17b004249ba88e5856",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T09:20:28+00:00",
+    "files": [
+      "third_party/xla/xla/pjrt/buffer_sequencing_event.cc",
+      "third_party/xla/xla/pjrt/host_callback.h",
+      "third_party/xla/xla/pjrt/host_to_device_transfer_manager.cc",
+      "third_party/xla/xla/pjrt/local_device_state.cc",
+      "third_party/xla/xla/pjrt/pjrt_client.h",
+      "third_party/xla/xla/pjrt/pjrt_client_test.cc",
+      "third_party/xla/xla/pjrt/pjrt_compiler.cc",
+      "third_party/xla/xla/pjrt/pjrt_stream_executor_client_test.cc",
+      "third_party/xla/xla/pjrt/se_raw_buffer.cc",
+      "third_party/xla/xla/pjrt/semaphore.cc",
+      "third_party/xla/xla/pjrt/tf_pjrt_client.cc",
+      "third_party/xla/xla/pjrt/worker_thread.cc"
+    ]
+  },
+  {
+    "sha": "dd5247ddedad833b943e5aeb6adeb92fc0be0917",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T09:03:20+00:00",
+    "files": [
+      "tensorflow/python/compat/compat.py"
+    ]
+  },
+  {
+    "sha": "a663d502602f48051947648a0527fac42f905d2b",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T09:03:04+00:00",
+    "files": [
+      "tensorflow/core/public/version.h"
+    ]
+  },
+  {
+    "sha": "ef367277397bd96b2e72907dee3999d5e588394b",
+    "author": "mraunak",
+    "date": "2025-11-08T08:22:55+00:00",
+    "files": [
+      "third_party/xla/build_tools/ci/build.py",
+      "third_party/xla/build_tools/ci/golden_commands.txt"
+    ]
+  },
+  {
+    "sha": "6fa61af21ca4a623cbe60c1ddd11aabcb1d33b8e",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T07:39:49+00:00",
+    "files": [
+      "tensorflow/core/framework/resource_handle.cc"
+    ]
+  },
+  {
+    "sha": "be54b30fb35353acbcd2b148f6541cf8c8608e4d",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T07:15:43+00:00",
+    "files": [
+      "tensorflow/core/ops/array_grad.cc",
+      "tensorflow/core/ops/array_grad_test.cc",
+      "tensorflow/core/ops/array_ops.cc",
+      "tensorflow/core/ops/array_ops_test.cc"
+    ]
+  },
+  {
+    "sha": "ff6098c69920b826b77454bbf7ff870518268364",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T07:14:54+00:00",
+    "files": [
+      "tensorflow/c/experimental/ops/gen/cpp/renderers/cpp_config.cc",
+      "tensorflow/c/experimental/ops/gen/cpp/renderers/cpp_config.h",
+      "tensorflow/c/experimental/ops/gen/cpp/renderers/guard_renderer.cc",
+      "tensorflow/c/experimental/ops/gen/cpp/renderers/guard_renderer.h",
+      "tensorflow/c/experimental/ops/gen/cpp/renderers/include_renderer.cc",
+      "tensorflow/c/experimental/ops/gen/cpp/renderers/include_renderer.h",
+      "tensorflow/c/experimental/ops/gen/cpp/renderers/namespace_renderer.cc",
+      "tensorflow/c/experimental/ops/gen/cpp/renderers/op_renderer.cc",
+      "tensorflow/c/experimental/ops/gen/cpp/renderers/op_renderer.h",
+      "tensorflow/c/experimental/ops/gen/cpp/renderers/renderer.cc",
+      "tensorflow/c/experimental/ops/gen/cpp/renderers/renderer.h",
+      "tensorflow/c/experimental/ops/gen/cpp/renderers/renderer_test.cc"
+    ]
+  },
+  {
+    "sha": "f1f8e96f59d415a62575220789ee9a3b516440ce",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T06:56:35+00:00",
+    "files": [
+      "tensorflow/core/data/snapshot_utils.h",
+      "tensorflow/core/data/split_utils.cc",
+      "tensorflow/core/data/standalone.cc",
+      "tensorflow/core/data/standalone_test.cc",
+      "tensorflow/core/data/stats_utils.cc",
+      "tensorflow/core/data/stats_utils.h",
+      "tensorflow/core/data/unbounded_thread_pool.cc",
+      "tensorflow/core/data/unbounded_thread_pool.h"
+    ]
+  },
+  {
+    "sha": "21e6ad839269e83a2586861c0ee9154132026186",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T06:12:36+00:00",
+    "files": [
+      "tensorflow/c/checkpoint_reader.cc"
+    ]
+  },
+  {
+    "sha": "e739574a2ac7af14c3e1e2267be9f3f10b671eee",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T06:04:52+00:00",
+    "files": [
+      "tensorflow/c/experimental/ops/gen/generate_cpp_main.cc"
+    ]
+  },
+  {
+    "sha": "30beaef2b1a16997259be42602430a6cede3252a",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T05:10:48+00:00",
+    "files": [
+      "third_party/xla/third_party/llvm/generated.patch",
+      "third_party/xla/third_party/llvm/workspace.bzl",
+      "third_party/xla/third_party/shardy/temporary.patch",
+      "third_party/xla/third_party/shardy/workspace.bzl",
+      "third_party/xla/third_party/triton/llvm_integration/cl828494580.patch",
+      "third_party/xla/third_party/triton/llvm_integration/series.bzl"
+    ]
+  },
+  {
+    "sha": "68236ced376b1553cb6593b9a9a18d2418c0b3c5",
+    "author": "majnemer",
+    "date": "2025-11-08T05:03:19+00:00",
+    "files": [
+      "tensorflow/python/_pywrap_tensorflow.def",
+      "third_party/xla/third_party/tsl/tsl/platform/BUILD",
+      "third_party/xla/third_party/tsl/tsl/platform/path_test.cc",
+      "third_party/xla/third_party/tsl/tsl/platform/stringpiece.h",
+      "third_party/xla/xla/tsl/platform/windows/BUILD",
+      "third_party/xla/xla/tsl/platform/windows/windows_file_system.cc",
+      "third_party/xla/xla/tsl/platform/windows/windows_file_system.h"
+    ]
+  },
+  {
+    "sha": "521884c0b00f8a4df5e738e0cc5974e87e710a96",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T02:59:29+00:00",
+    "files": [
+      "third_party/xla/xla/debug_options_flags.cc",
+      "third_party/xla/xla/service/spmd/spmd_partitioner.cc",
+      "third_party/xla/xla/service/spmd/spmd_partitioner_test.cc",
+      "third_party/xla/xla/service/spmd/spmd_partitioner_util.cc",
+      "third_party/xla/xla/tests/collective_ops_e2e_test.cc",
+      "third_party/xla/xla/xla.proto"
+    ]
+  },
+  {
+    "sha": "c66648c3bb8d1c3cada83c02d2310abc35171436",
+    "author": "sharadmv",
+    "date": "2025-11-08T01:48:43+00:00",
+    "files": [
+      "third_party/xla/xla/hlo/transforms/simplifiers/hlo_dce.cc"
+    ]
+  },
+  {
+    "sha": "3fbf71be52704c78a6642b2e1a5a64174e7f5a59",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T00:55:46+00:00",
+    "files": [
+      "third_party/xla/xla/python/ifrt/ir/program_interpreter.cc",
+      "third_party/xla/xla/python/ifrt/ir/tests/BUILD",
+      "third_party/xla/xla/python/ifrt/ir/tests/executable_impl_test_lib.cc"
+    ]
+  },
+  {
+    "sha": "0057077b4345c2ac4785302af70aae17543eed26",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-08T00:24:51+00:00",
+    "files": [
+      "third_party/xla/xla/debug_options_flags.cc",
+      "third_party/xla/xla/service/spmd/spmd_partitioner.cc",
+      "third_party/xla/xla/service/spmd/spmd_partitioner_test.cc",
+      "third_party/xla/xla/service/spmd/spmd_partitioner_util.cc",
+      "third_party/xla/xla/tests/collective_ops_e2e_test.cc",
+      "third_party/xla/xla/xla.proto"
+    ]
+  },
+  {
+    "sha": "efab298fb7da82786019419e14bc9f69775c96e8",
+    "author": "majnemer",
+    "date": "2025-11-07T23:34:52+00:00",
+    "files": [
+      "tensorflow/core/framework/ops_util.cc",
+      "tensorflow/core/graph/tensor_id.cc",
+      "tensorflow/core/graph/tensor_id.h",
+      "tensorflow/core/lib/db/BUILD",
+      "tensorflow/core/lib/db/sqlite.cc",
+      "tensorflow/core/platform/str_util.h",
+      "tensorflow/core/util/memmapped_file_system.cc",
+      "tensorflow/core/util/semver_test.cc",
+      "tensorflow/security/fuzzing/cc/BUILD",
+      "tensorflow/security/fuzzing/cc/arg_def_case_fuzz.cc",
+      "third_party/xla/third_party/tsl/tsl/platform/str_util.cc",
+      "third_party/xla/third_party/tsl/tsl/platform/str_util.h",
+      "third_party/xla/third_party/tsl/tsl/platform/str_util_test.cc",
+      "third_party/xla/xla/service/llvm_ir/llvm_util.cc",
+      "third_party/xla/xla/sort_json.cc",
+      "third_party/xla/xla/tsl/util/BUILD",
+      "third_party/xla/xla/tsl/util/device_name_utils.cc"
+    ]
+  },
+  {
+    "sha": "c4ff7887a3a6937e731d0c55356903751045ad37",
+    "author": "mrguenther",
+    "date": "2025-11-07T23:25:46+00:00",
+    "files": [
+      "third_party/xla/third_party/stablehlo/temporary.patch"
+    ]
+  },
+  {
+    "sha": "3e37d6f355dcab61759ddb105a3783fba7450894",
+    "author": "pkanwar23",
+    "date": "2025-11-07T23:11:26+00:00",
+    "files": [
+      "third_party/xla/xla/tests/BUILD",
+      "third_party/xla/xla/tests/dot_operation_test.cc"
+    ]
+  },
+  {
+    "sha": "61a5ba283e2a28b8a25204b0b1314874ae03f996",
+    "author": "loislo",
+    "date": "2025-11-07T22:52:01+00:00",
+    "files": [
+      "third_party/xla/xla/backends/gpu/runtime/buffers_checksum_thunk.cc",
+      "third_party/xla/xla/backends/gpu/runtime/buffers_checksum_thunk_test.cc",
+      "third_party/xla/xla/backends/gpu/runtime/buffers_float_check_thunk.cc",
+      "third_party/xla/xla/backends/gpu/runtime/buffers_float_check_thunk_test.cc",
+      "third_party/xla/xla/backends/gpu/runtime/thunk_buffer_debug_pass.cc",
+      "third_party/xla/xla/stream_executor/cuda/buffer_debug_float_check_kernel_cuda_test.cc",
+      "third_party/xla/xla/stream_executor/cuda/buffer_debug_xor_checksum_kernel_cuda_test.cc",
+      "third_party/xla/xla/stream_executor/gpu/BUILD",
+      "third_party/xla/xla/stream_executor/gpu/buffer_debug_log.cc",
+      "third_party/xla/xla/stream_executor/gpu/buffer_debug_log.h",
+      "third_party/xla/xla/stream_executor/gpu/buffer_debug_log_test.cc"
+    ]
+  },
+  {
+    "sha": "5e1a6c27c9e3d5c2de3c65a6e945dea9eb9cb9dc",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T22:41:50+00:00",
+    "files": [
+      "tensorflow/c/tf_datatype.h",
+      "tensorflow/compiler/tf2xla/type_util.cc",
+      "tensorflow/core/framework/register_types.h",
+      "tensorflow/core/framework/tensor.cc",
+      "tensorflow/core/framework/tensor_test.cc",
+      "tensorflow/core/framework/tensor_testutil.cc",
+      "tensorflow/core/framework/types.cc",
+      "tensorflow/core/framework/types.h",
+      "tensorflow/core/framework/types.proto",
+      "tensorflow/core/framework/types_test.cc",
+      "tensorflow/core/kernels/dense_update_functor_gpu.cu.cc",
+      "tensorflow/core/kernels/fill_functor.cc",
+      "tensorflow/core/kernels/resource_variable_ops.cc",
+      "tensorflow/core/platform/types.h",
+      "tensorflow/go/tensor.go",
+      "tensorflow/python/eager/tensor_test.py",
+      "tensorflow/python/framework/dtypes.py",
+      "tensorflow/python/framework/dtypes_test.py",
+      "tensorflow/python/framework/function.py",
+      "tensorflow/python/framework/python_op_gen.cc",
+      "tensorflow/python/framework/python_op_gen_test.cc",
+      "tensorflow/python/framework/tensor_util.py",
+      "tensorflow/python/framework/tensor_util_test.py",
+      "tensorflow/python/lib/core/ndarray_tensor.cc",
+      "tensorflow/python/lib/core/ndarray_tensor_bridge.cc",
+      "tensorflow/security/fuzzing/py/annotation_types.py",
+      "tensorflow/tools/api/golden/v1/tensorflow.dtypes.experimental.pbtxt",
+      "tensorflow/tools/api/golden/v1/tensorflow.experimental.pbtxt",
+      "tensorflow/tools/api/golden/v2/tensorflow.dtypes.experimental.pbtxt",
+      "tensorflow/tools/api/golden/v2/tensorflow.experimental.pbtxt"
+    ]
+  },
+  {
+    "sha": "e600c5c5945a9164ec6f9e668c932ef09830fef7",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T22:38:46+00:00",
+    "files": [
+      "third_party/xla/xla/service/BUILD",
+      "third_party/xla/xla/service/hlo_runner_pjrt.cc",
+      "third_party/xla/xla/service/hlo_runner_pjrt.h",
+      "third_party/xla/xla/service/hlo_runner_pjrt_test.cc"
+    ]
+  },
+  {
+    "sha": "7024106d90bb2876db453e1f7615be37333d8c27",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T22:36:01+00:00",
+    "files": [
+      "third_party/xla/xla/service/BUILD",
+      "third_party/xla/xla/service/hlo_runner_pjrt.cc",
+      "third_party/xla/xla/service/hlo_runner_pjrt.h",
+      "third_party/xla/xla/service/hlo_runner_pjrt_test.cc"
+    ]
+  },
+  {
+    "sha": "e32ab4d782762aa4228641399161b22ccfcd40c1",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T21:56:23+00:00",
+    "files": [
+      "tensorflow/c/tf_datatype.h",
+      "tensorflow/compiler/tf2xla/type_util.cc",
+      "tensorflow/core/framework/register_types.h",
+      "tensorflow/core/framework/tensor.cc",
+      "tensorflow/core/framework/tensor_test.cc",
+      "tensorflow/core/framework/tensor_testutil.cc",
+      "tensorflow/core/framework/types.cc",
+      "tensorflow/core/framework/types.h",
+      "tensorflow/core/framework/types.proto",
+      "tensorflow/core/framework/types_test.cc",
+      "tensorflow/core/kernels/dense_update_functor_gpu.cu.cc",
+      "tensorflow/core/kernels/fill_functor.cc",
+      "tensorflow/core/kernels/resource_variable_ops.cc",
+      "tensorflow/core/platform/types.h",
+      "tensorflow/go/tensor.go",
+      "tensorflow/python/eager/tensor_test.py",
+      "tensorflow/python/framework/dtypes.py",
+      "tensorflow/python/framework/dtypes_test.py",
+      "tensorflow/python/framework/function.py",
+      "tensorflow/python/framework/python_op_gen.cc",
+      "tensorflow/python/framework/python_op_gen_test.cc",
+      "tensorflow/python/framework/tensor_util.py",
+      "tensorflow/python/framework/tensor_util_test.py",
+      "tensorflow/python/lib/core/ndarray_tensor.cc",
+      "tensorflow/python/lib/core/ndarray_tensor_bridge.cc",
+      "tensorflow/security/fuzzing/py/annotation_types.py",
+      "tensorflow/tools/api/golden/v1/tensorflow.dtypes.experimental.pbtxt",
+      "tensorflow/tools/api/golden/v1/tensorflow.experimental.pbtxt",
+      "tensorflow/tools/api/golden/v2/tensorflow.dtypes.experimental.pbtxt",
+      "tensorflow/tools/api/golden/v2/tensorflow.experimental.pbtxt"
+    ]
+  },
+  {
+    "sha": "dbbd9067dfea8309b94fb469ecefc0f24e4dc440",
+    "author": "ybaturina",
+    "date": "2025-11-07T20:52:43+00:00",
+    "files": [
+      ".bazelrc"
+    ]
+  },
+  {
+    "sha": "e095ceec54c6e06c8134eb1254f536964d3e83cf",
+    "author": "GleasonK",
+    "date": "2025-11-07T20:20:56+00:00",
+    "files": [
+      "third_party/xla/third_party/stablehlo/temporary.patch"
+    ]
+  },
+  {
+    "sha": "95aabf9f548e0c505066b91e6f7658e2174d729c",
+    "author": "ermilovmaxim",
+    "date": "2025-11-07T19:57:32+00:00",
+    "files": [
+      "third_party/xla/xla/stream_executor/cuda/cuda_executor.cc"
+    ]
+  },
+  {
+    "sha": "345fdfabee987c84de3fffe6bd4436348ecde435",
+    "author": "nvgrw",
+    "date": "2025-11-07T19:14:23+00:00",
+    "files": [
+      "third_party/xla/xla/service/BUILD",
+      "third_party/xla/xla/service/hlo_runner_pjrt.cc",
+      "third_party/xla/xla/service/hlo_runner_pjrt.h",
+      "third_party/xla/xla/service/hlo_runner_pjrt_test.cc"
+    ]
+  },
+  {
+    "sha": "9f7f4c7bc67a571887b29ba4af02666b1c6731d3",
+    "author": "apivovarov",
+    "date": "2025-11-07T19:08:28+00:00",
+    "files": [
+      "third_party/xla/xla/backends/gpu/runtime/BUILD",
+      "third_party/xla/xla/backends/gpu/runtime/collective_permute_thunk.cc",
+      "third_party/xla/xla/backends/gpu/runtime/nvshmem_collective_permute_thunk.cc",
+      "third_party/xla/xla/backends/gpu/runtime/p2p_thunk_common.cc",
+      "third_party/xla/xla/backends/gpu/runtime/p2p_thunk_common.h"
+    ]
+  },
+  {
+    "sha": "6e2fd438aa9b01065d20c88686c6874b83972d12",
+    "author": "ermilovmaxim",
+    "date": "2025-11-07T18:55:34+00:00",
+    "files": [
+      "third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_client.cc",
+      "third_party/xla/xla/pjrt/gpu/se_gpu_pjrt_client_test.cc",
+      "third_party/xla/xla/service/gpu/model/BUILD",
+      "third_party/xla/xla/service/gpu/model/gpu_collective_performance_model.cc",
+      "third_party/xla/xla/service/gpu/model/gpu_collective_performance_model.h",
+      "third_party/xla/xla/stream_executor/cuda/cuda_executor.cc",
+      "third_party/xla/xla/stream_executor/cuda/cuda_executor_test.cc",
+      "third_party/xla/xla/stream_executor/device_description.h"
+    ]
+  },
+  {
+    "sha": "595c829095d659c899793b8c3d41deb95239d4ab",
+    "author": "mwhittaker",
+    "date": "2025-11-07T18:55:27+00:00",
+    "files": [
+      "third_party/xla/xla/backends/gpu/collectives/BUILD",
+      "third_party/xla/xla/backends/gpu/collectives/gpu_cliques.cc",
+      "third_party/xla/xla/backends/gpu/collectives/gpu_collectives.h",
+      "third_party/xla/xla/backends/gpu/collectives/nccl_collectives.cc",
+      "third_party/xla/xla/backends/gpu/collectives/nccl_collectives.h",
+      "third_party/xla/xla/backends/gpu/collectives/nccl_communicator.cc",
+      "third_party/xla/xla/backends/gpu/collectives/nccl_communicator.h"
+    ]
+  },
+  {
+    "sha": "162c3e57634157281d2bd389e0f5e943fcc47733",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T18:50:21+00:00",
+    "files": [
+      "third_party/xla/xla/python/BUILD"
+    ]
+  },
+  {
+    "sha": "151894fa84cb54bf11b58fe7c4fefc56fa831a4b",
+    "author": "mrguenther",
+    "date": "2025-11-07T18:46:04+00:00",
+    "files": [
+      "third_party/xla/third_party/stablehlo/temporary.patch",
+      "third_party/xla/third_party/stablehlo/workspace.bzl"
+    ]
+  },
+  {
+    "sha": "05b62cafd75150445fea61805d37aac175305500",
+    "author": "hugomano",
+    "date": "2025-11-07T17:44:43+00:00",
+    "files": [
+      "third_party/xla/xla/backends/gpu/codegen/triton/compilation_pipeline_rocm.cc"
+    ]
+  },
+  {
+    "sha": "4cbccfc8c59d180434c48f839f47263a0e910b0b",
+    "author": "EusebioDM",
+    "date": "2025-11-07T16:18:31+00:00",
+    "files": [
+      "third_party/xla/xla/service/gpu/BUILD",
+      "third_party/xla/xla/service/gpu/gpu_aot_compilation_result.h",
+      "third_party/xla/xla/service/gpu/gpu_aot_compilation_result_test.cc"
+    ]
+  },
+  {
+    "sha": "de7c931899fe6f0415513381a3b5edf2555419a0",
+    "author": "zvikinoza",
+    "date": "2025-11-07T16:08:42+00:00",
+    "files": [
+      "third_party/xla/xla/hlo/transforms/simplifiers/unflatten_call_graph.cc",
+      "third_party/xla/xla/hlo/transforms/simplifiers/unflatten_call_graph.h"
+    ]
+  },
+  {
+    "sha": "cc4a122a248becc99b503bfa2980446bd92430ee",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T15:46:10+00:00",
+    "files": [
+      "tensorflow/js/ops/ts_op_gen.cc",
+      "tensorflow/js/ops/ts_op_gen.h",
+      "tensorflow/js/ops/ts_op_gen_test.cc"
+    ]
+  },
+  {
+    "sha": "3f34740ef595a3d2b17f70b4286a207a64af1b33",
+    "author": "zvikinoza",
+    "date": "2025-11-07T15:43:52+00:00",
+    "files": [
+      "third_party/xla/xla/hlo/separate_compilation/BUILD",
+      "third_party/xla/xla/hlo/separate_compilation/hlo_linking_manifest.h",
+      "third_party/xla/xla/hlo/separate_compilation/hlo_module_splitting.cc",
+      "third_party/xla/xla/hlo/separate_compilation/hlo_module_splitting.h",
+      "third_party/xla/xla/hlo/separate_compilation/hlo_module_splitting_test.cc"
+    ]
+  },
+  {
+    "sha": "1f1323c0f4734138091130170927f10e83149ff9",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T15:29:58+00:00",
+    "files": [
+      "tensorflow/core/tpu/graph_rewrite/configure_tpu_embedding_rewrite_pass.cc",
+      "tensorflow/core/tpu/graph_rewrite/distributed_tpu_rewrite_helpers.cc",
+      "tensorflow/core/tpu/graph_rewrite/distributed_tpu_rewrite_helpers.h",
+      "tensorflow/core/tpu/graph_rewrite/incomplete_nodedef_builder.h",
+      "tensorflow/core/tpu/graph_rewrite/tpu_embedding_software_deduplication_rewrite_pass.cc",
+      "tensorflow/core/tpu/graph_rewrite/update_tpu_embedding_ops_passes.cc",
+      "tensorflow/core/tpu/graph_rewrite/variable_merger_pass.cc"
+    ]
+  },
+  {
+    "sha": "f684f93c33a5c0ba7521ca45f27109f1d6ef7995",
+    "author": "chsigg",
+    "date": "2025-11-07T15:16:25+00:00",
+    "files": [
+      "third_party/xla/xla/service/gpu/autotuning/gemm_fusion_autotuner.cc"
+    ]
+  },
+  {
+    "sha": "94b36896014d2bfc899b8437802ccd76b3855cd4",
+    "author": "basioli-k",
+    "date": "2025-11-07T15:13:13+00:00",
+    "files": [
+      "third_party/xla/xla/backends/gpu/codegen/triton/fusion_emitter.cc"
+    ]
+  },
+  {
+    "sha": "feda04abd7b377dcbf9662c2e9067811bda3f4e0",
+    "author": "akuegel",
+    "date": "2025-11-07T15:06:29+00:00",
+    "files": [
+      "third_party/xla/xla/service/gpu/BUILD",
+      "third_party/xla/xla/service/gpu/nvptx_alias_info.cc",
+      "third_party/xla/xla/service/gpu/nvptx_alias_info_test.cc"
+    ]
+  },
+  {
+    "sha": "599b30f47fb99ea0377bfa7c68a5bd8249228858",
+    "author": "pifon2a",
+    "date": "2025-11-07T14:45:57+00:00",
+    "files": [
+      "third_party/xla/xla/backends/cpu/codegen/BUILD",
+      "third_party/xla/xla/backends/cpu/codegen/fusion_emitter.cc",
+      "third_party/xla/xla/backends/cpu/codegen/fusion_emitter.h",
+      "third_party/xla/xla/backends/cpu/codegen/fusion_emitter_test.py",
+      "third_party/xla/xla/backends/cpu/codegen/tools/BUILD",
+      "third_party/xla/xla/backends/cpu/codegen/tools/fusion_to_mlir.cc",
+      "third_party/xla/xla/backends/cpu/testlib/kernel_runner_extension.cc",
+      "third_party/xla/xla/service/cpu/parallel_fusion_emitter.cc"
+    ]
+  },
+  {
+    "sha": "1604bf3218d972a631d5458388e01c583a90be25",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T14:33:48+00:00",
+    "files": [
+      "tensorflow/tools/api/tests/convert_from_multiline.cc"
+    ]
+  },
+  {
+    "sha": "54c7505360915a1defc0b6993729b6af722fb0da",
+    "author": "chsigg",
+    "date": "2025-11-07T13:38:39+00:00",
+    "files": [
+      "third_party/xla/xla/service/gpu/transforms/nest_gemm_fusion.cc"
+    ]
+  },
+  {
+    "sha": "a137ca105e47c64930f3e792ea4dc2f9fdea2f46",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T13:29:57+00:00",
+    "files": [
+      "tensorflow/core/debug/bfc_dump_reader.cc",
+      "tensorflow/core/debug/debug_callback_registry.cc",
+      "tensorflow/core/debug/debug_callback_registry.h",
+      "tensorflow/core/debug/debug_graph_utils.cc",
+      "tensorflow/core/debug/debug_graph_utils.h",
+      "tensorflow/core/debug/debug_graph_utils_test.cc",
+      "tensorflow/core/debug/debug_grpc_io_utils_test.cc",
+      "tensorflow/core/debug/debug_grpc_testlib.cc",
+      "tensorflow/core/debug/debug_grpc_testlib.h",
+      "tensorflow/core/debug/debug_io_utils.cc",
+      "tensorflow/core/debug/debug_io_utils.h",
+      "tensorflow/core/debug/debug_io_utils_test.cc",
+      "tensorflow/core/debug/debug_node_key.cc",
+      "tensorflow/core/debug/debug_node_key.h",
+      "tensorflow/core/debug/debugger_state_impl.cc",
+      "tensorflow/core/debug/debugger_state_impl.h",
+      "tensorflow/core/debug/grpc_session_debug_test.cc"
+    ]
+  },
+  {
+    "sha": "62f00f3f0524f6d5a7da48c91f596cbb941e9276",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T13:26:33+00:00",
+    "files": [
+      "tensorflow/core/util/activation_mode.cc",
+      "tensorflow/core/util/activation_mode.h",
+      "tensorflow/core/util/bcast_test.cc",
+      "tensorflow/core/util/command_line_flags_test.cc",
+      "tensorflow/core/util/debug_data_dumper.h",
+      "tensorflow/core/util/debug_events_writer.cc",
+      "tensorflow/core/util/debug_events_writer.h",
+      "tensorflow/core/util/debug_events_writer_test.cc",
+      "tensorflow/core/util/dump_graph.cc",
+      "tensorflow/core/util/dump_graph.h",
+      "tensorflow/core/util/dump_graph_test.cc",
+      "tensorflow/core/util/einsum_op_util.cc",
+      "tensorflow/core/util/einsum_op_util.h",
+      "tensorflow/core/util/equal_graph_def.cc",
+      "tensorflow/core/util/equal_graph_def.h",
+      "tensorflow/core/util/equal_graph_def_test.cc",
+      "tensorflow/core/util/events_writer.cc",
+      "tensorflow/core/util/events_writer_test.cc",
+      "tensorflow/core/util/example_proto_fast_parsing.cc",
+      "tensorflow/core/util/example_proto_fast_parsing.h",
+      "tensorflow/core/util/example_proto_fast_parsing_test.cc",
+      "tensorflow/core/util/example_proto_helper.cc",
+      "tensorflow/core/util/example_proto_helper.h",
+      "tensorflow/core/util/exec_on_stall.h",
+      "tensorflow/core/util/fake_clock_env.cc",
+      "tensorflow/core/util/fake_clock_env.h",
+      "tensorflow/core/util/image_resizer_state.h",
+      "tensorflow/core/util/matmul_bcast_test.cc",
+      "tensorflow/core/util/memmapped_file_system.cc",
+      "tensorflow/core/util/memmapped_file_system.h",
+      "tensorflow/core/util/memmapped_file_system_test.cc",
+      "tensorflow/core/util/memmapped_file_system_writer.cc",
+      "tensorflow/core/util/memmapped_file_system_writer.h",
+      "tensorflow/core/util/mirror_pad_mode.cc",
+      "tensorflow/core/util/mirror_pad_mode.h",
+      "tensorflow/core/util/overflow.h",
+      "tensorflow/core/util/padding.cc",
+      "tensorflow/core/util/presized_cuckoo_map.h",
+      "tensorflow/core/util/presized_cuckoo_map_test.cc"
+    ]
+  },
+  {
+    "sha": "b977bfa8de23c56017cb23cedb8f149a5d15303b",
+    "author": "EusebioDM",
+    "date": "2025-11-07T11:35:11+00:00",
+    "files": [
+      "third_party/xla/xla/service/BUILD",
+      "third_party/xla/xla/service/compiler.h",
+      "third_party/xla/xla/service/gpu/BUILD",
+      "third_party/xla/xla/service/gpu/gpu_compiler.cc",
+      "third_party/xla/xla/service/gpu/gpu_compiler.h",
+      "third_party/xla/xla/service/gpu/legacy_gpu_aot_compilation_result.cc",
+      "third_party/xla/xla/service/gpu/legacy_gpu_aot_compilation_result.h"
+    ]
+  },
+  {
+    "sha": "ac914a493d41a764978a73ad31a287ceeb7f17c1",
+    "author": "Tixxx",
+    "date": "2025-11-07T11:29:01+00:00",
+    "files": [
+      "third_party/xla/xla/backends/cpu/collectives/cpu_collectives.h",
+      "third_party/xla/xla/backends/gpu/collectives/gpu_cliques.cc",
+      "third_party/xla/xla/backends/gpu/collectives/gpu_collectives_stub.h",
+      "third_party/xla/xla/backends/gpu/collectives/nccl_collectives.cc",
+      "third_party/xla/xla/backends/gpu/collectives/nccl_collectives.h",
+      "third_party/xla/xla/backends/gpu/collectives/nvshmem_collectives.h",
+      "third_party/xla/xla/core/collectives/collectives.h"
+    ]
+  },
+  {
+    "sha": "4a024c88ff8b7253c86a40e0f54b3fd4cb844395",
+    "author": "Moerafaat",
+    "date": "2025-11-07T11:12:53+00:00",
+    "files": [
+      "third_party/xla/xla/backends/gpu/codegen/triton/compilation_pipeline.cc",
+      "third_party/xla/xla/backends/gpu/codegen/triton/compilation_pipeline.h",
+      "third_party/xla/xla/backends/gpu/codegen/triton/compilation_pipeline_test.cc",
+      "third_party/xla/xla/backends/gpu/codegen/triton/fusion_emitter.cc",
+      "third_party/xla/xla/backends/gpu/codegen/triton/transforms/passes.h",
+      "third_party/xla/xla/backends/gpu/codegen/triton/transforms/passes.td",
+      "third_party/xla/xla/backends/gpu/codegen/triton/transforms/tests/triton_xla_extract_insert_to_triton.mlir",
+      "third_party/xla/xla/backends/gpu/codegen/triton/transforms/triton_xla_extract_insert_to_triton_pass.cc",
+      "third_party/xla/xla/service/gpu/autotuning/gemm_fusion_autotuner.cc",
+      "third_party/xla/xla/service/gpu/autotuning/gemm_fusion_autotuner_test.cc",
+      "third_party/xla/xla/service/gpu/tests/xla-opt.cc"
+    ]
+  },
+  {
+    "sha": "14e8fbe22600c5f7152ba61bd303c24ecd7cc930",
+    "author": "beckerhe",
+    "date": "2025-11-07T10:42:08+00:00",
+    "files": [
+      "third_party/xla/xla/service/gpu/BUILD",
+      "third_party/xla/xla/service/gpu/stream_executor_util.cc",
+      "third_party/xla/xla/stream_executor/BUILD",
+      "third_party/xla/xla/stream_executor/cuda/BUILD",
+      "third_party/xla/xla/stream_executor/cuda/cuda_executor.cc",
+      "third_party/xla/xla/stream_executor/cuda/cuda_kernel.cc",
+      "third_party/xla/xla/stream_executor/cuda/cuda_kernel.h",
+      "third_party/xla/xla/stream_executor/kernel.cc",
+      "third_party/xla/xla/stream_executor/kernel.h",
+      "third_party/xla/xla/stream_executor/kernel_metadata.h",
+      "third_party/xla/xla/stream_executor/kernel_metadata_test.cc",
+      "third_party/xla/xla/stream_executor/kernel_test.cc",
+      "third_party/xla/xla/stream_executor/rocm/BUILD",
+      "third_party/xla/xla/stream_executor/rocm/rocm_executor.cc",
+      "third_party/xla/xla/stream_executor/rocm/rocm_kernel.cc",
+      "third_party/xla/xla/stream_executor/rocm/rocm_kernel.h",
+      "third_party/xla/xla/stream_executor/sycl/BUILD",
+      "third_party/xla/xla/stream_executor/sycl/sycl_kernel.cc",
+      "third_party/xla/xla/stream_executor/sycl/sycl_kernel.h"
+    ]
+  },
+  {
+    "sha": "8640317764ff90922900a820c03554d36200cca7",
+    "author": "akuegel",
+    "date": "2025-11-07T10:40:59+00:00",
+    "files": [
+      "third_party/xla/xla/hlo/analysis/hlo_dataflow_analysis.cc",
+      "third_party/xla/xla/hlo/analysis/hlo_dataflow_analysis_test.cc",
+      "third_party/xla/xla/service/copy_insertion_test.cc"
+    ]
+  },
+  {
+    "sha": "ec8876a2558e065b27a4fd2ffca62e4845963e0f",
+    "author": "akhilgoe",
+    "date": "2025-11-07T10:11:42+00:00",
+    "files": [
+      "third_party/xla/xla/service/change_op_data_type.cc",
+      "third_party/xla/xla/service/cpu/cpu_compiler.cc"
+    ]
+  },
+  {
+    "sha": "6f40b747b83eeba3b69a77f4a7806117df83d1b3",
+    "author": "alekstheod",
+    "date": "2025-11-07T10:00:29+00:00",
+    "files": [
+      "third_party/xla/third_party/gpus/rocm/BUILD.tpl",
+      "third_party/xla/third_party/gpus/rocm/rocm_redist_ubuntu_22_04.bzl",
+      "third_party/xla/third_party/gpus/rocm/rocm_redist_ubuntu_24_04.bzl",
+      "third_party/xla/third_party/gpus/rocm_configure.bzl"
+    ]
+  },
+  {
+    "sha": "9dddfc9179694b8c5f83ceb6e7120e0247582820",
+    "author": "alekstheod",
+    "date": "2025-11-07T09:43:50+00:00",
+    "files": [
+      "third_party/xla/build_tools/rocm/rocm_xla.bazelrc"
+    ]
+  },
+  {
+    "sha": "7c09e90f2f6a17ba0e5c387c2530c19547f709f4",
+    "author": "shawnwang18",
+    "date": "2025-11-07T09:43:09+00:00",
+    "files": [
+      "third_party/xla/xla/backends/gpu/runtime/command_buffer_cmd.cc"
+    ]
+  },
+  {
+    "sha": "cad893c92dfe3188562485fc46692fd68827a3ec",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T09:39:31+00:00",
+    "files": [
+      "tensorflow/core/util/ragged_to_dense_util.cc",
+      "tensorflow/core/util/ragged_to_dense_util.h",
+      "tensorflow/core/util/ragged_to_dense_util_test.cc",
+      "tensorflow/core/util/reporter_test.cc",
+      "tensorflow/core/util/saved_tensor_slice_util.cc",
+      "tensorflow/core/util/saved_tensor_slice_util.h",
+      "tensorflow/core/util/saved_tensor_slice_util_test.cc",
+      "tensorflow/core/util/semver_test.cc"
+    ]
+  },
+  {
+    "sha": "7de7e9ee93a204fdf0a0a590b52a85ea5c9887d6",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T09:34:48+00:00",
+    "files": [
+      "tensorflow/compiler/aot/aot_only_var_handle_op.cc",
+      "tensorflow/compiler/aot/benchmark.cc",
+      "tensorflow/compiler/aot/codegen.cc",
+      "tensorflow/compiler/aot/codegen.h",
+      "tensorflow/compiler/aot/codegen_test.cc",
+      "tensorflow/compiler/aot/compile.cc",
+      "tensorflow/compiler/aot/compile.h",
+      "tensorflow/compiler/aot/embedded_protocol_buffers.cc",
+      "tensorflow/compiler/aot/embedded_protocol_buffers.h",
+      "tensorflow/compiler/aot/flags.h"
+    ]
+  },
+  {
+    "sha": "eb0349a8362e349a09665cbf9f5c48a9c74c22bb",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T09:27:46+00:00",
+    "files": [
+      "tensorflow/core/activity_watcher/activity.h",
+      "tensorflow/core/activity_watcher/activity_utils.cc",
+      "tensorflow/core/activity_watcher/activity_utils.h"
+    ]
+  },
+  {
+    "sha": "e752c1a78bd01d022abbee63917b339804f5a1e3",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T09:24:53+00:00",
+    "files": [
+      "third_party/xla/xla/tsl/platform/profile_utils/clock_cycle_profiler.cc",
+      "third_party/xla/xla/tsl/platform/profile_utils/clock_cycle_profiler.h",
+      "third_party/xla/xla/tsl/platform/profile_utils/cpu_utils.cc",
+      "third_party/xla/xla/tsl/platform/profile_utils/cpu_utils.h",
+      "third_party/xla/xla/tsl/platform/profile_utils/cpu_utils_test.cc",
+      "third_party/xla/xla/tsl/platform/profile_utils/i_cpu_utils_helper.h"
+    ]
+  },
+  {
+    "sha": "79a94f17e1352122d57663baca2528f0d54be247",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T09:16:29+00:00",
+    "files": [
+      "third_party/xla/xla/backends/gpu/collectives/BUILD",
+      "third_party/xla/xla/backends/gpu/collectives/gpu_clique_key.cc",
+      "third_party/xla/xla/backends/gpu/collectives/gpu_clique_key_test.cc",
+      "third_party/xla/xla/backends/gpu/collectives/gpu_cliques.cc",
+      "third_party/xla/xla/backends/gpu/collectives/gpu_cliques.h"
+    ]
+  },
+  {
+    "sha": "9bfda589103890dba70874ccbe4b190d84c91f10",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T09:04:59+00:00",
+    "files": [
+      "tensorflow/python/compat/compat.py"
+    ]
+  },
+  {
+    "sha": "da3fa11336cc8cab67e606162821db591d91bd4e",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T09:04:48+00:00",
+    "files": [
+      "tensorflow/core/public/version.h"
+    ]
+  },
+  {
+    "sha": "0977916f295dafd3e011c6346e97f1429e14dcdf",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T08:55:58+00:00",
+    "files": [
+      "tensorflow/python/grappler/cost_analyzer.cc",
+      "tensorflow/python/grappler/cost_analyzer.h"
+    ]
+  },
+  {
+    "sha": "69f5fa699a6b1fc9358d8c1f52cff57856e74b1d",
+    "author": "tensorflower-gardener",
+    "date": "2025-11-07T07:40:56+00:00",
+    "files": [
+      "tensorflow/tools/benchmark/benchmark_model.cc",
+      "tensorflow/tools/benchmark/benchmark_model.h",
+      "tensorflow/tools/benchmark/benchmark_model_test.cc"
+    ]
+  },
+  {
+    "sha": "a96d88aa603afced43305dd64ff752440580b7c2",
+    "author": "shawnwang18",
+    "date": "2025-11-07T07:36:05+00:00",
+    "files": [
+      "third_party/xla/xla/stream_executor/cuda/cuda_command_buffer.cc",
+      "third_party/xla/xla/stream_executor/cuda/cuda_executor.cc",
+      "third_party/xla/xla/stream_executor/cuda/cuda_executor.h",
+      "third_party/xla/xla/stream_executor/cuda/cuda_stream.cc",
+      "third_party/xla/xla/stream_executor/rocm/rocm_executor.cc",
+      "third_party/xla/xla/stream_executor/rocm/rocm_executor.h",
+      "third_party/xla/xla/stream_executor/rocm/rocm_stream.cc",
+      "third_party/xla/xla/stream_executor/stream_executor.h"
+    ]
+  },
+  {
+    "sha": "f021c3f4ebca346d48ad2b2f06665542612b6911",
+    "author": "ermilovmaxim",
+    "date": "2025-11-07T07:20:11+00:00",
+    "files": [
+      "tensorflow/compiler/tests/cast_test.py",
+      "tensorflow/compiler/tests/float_ops_test.py",
+      "tensorflow/compiler/tests/xla_test.py"
+    ]
+  }
+]
