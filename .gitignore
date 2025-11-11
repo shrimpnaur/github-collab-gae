@@ -40,3 +40,15 @@ data/processed/
 
 # Drafts (experimental code)
 drafts/
+
+# Notebooks helpers and old scripts (consolidated to top-level `scripts/`)
+notebooks/scripts/
+notebooks/data/
+
+# Keep generated processed artifacts ignored (explicit patterns)
+data/processed/*.pt
+data/processed/*.pth
+data/processed/*.npy
+data/processed/*.png
+data/processed/*.svg
+data/processed/*.json
