@@ -10,6 +10,11 @@ executing==2.2.1
 fonttools==4.60.1
 idna==3.11
 ipython==9.7.0
+# PyTorch and PyG (for GAE model training)
+# NOTE: versions must match; see README.md for Colab installation instructions
+torch==2.2.0
+torchvision==0.15.2
+torch-geometric==2.3.0
 ipython_pygments_lexers==1.1.1
 jedi==0.19.2
 Jinja2==3.1.6
