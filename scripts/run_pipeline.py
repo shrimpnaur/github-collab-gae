@@ -232,6 +232,7 @@ def main():
     parser.add_argument("--make_html", action="store_true", help="Make interactive HTML via pyvis (if installed)")
     parser.add_argument("--run_analysis", action="store_true", help="Run analysis script after pipeline (analyze_graph.py)")
     parser.add_argument("--run_visualize", action="store_true", help="Run visualization script after pipeline (visualize.py)")
+    parser.add_argument("--viz-out", type=str, default=None, help="Custom output prefix for visualization (overrides default)")
     parser.add_argument("--parallel", action="store_true", help="If set, run analysis and visualization in parallel")
     parser.add_argument("--data-root", type=str, default="data", help="Data root directory (contains raw/ and processed/ subfolders)")
     args = parser.parse_args()
@@ -308,26 +309,37 @@ def main():
             p = subprocess.Popen(analysis_cmd)
             procs.append(("analysis", p))
         else:
-            _run_cmd(analysis_cmd)
+            rc = _run_cmd(analysis_cmd)
+            if rc != 0:
+                print("Analysis step failed; exiting with error.", file=sys.stderr)
+                sys.exit(rc)
 
     if args.run_visualize:
-        out_prefix = os.path.join(PROC_DIR, "github_collab_latest")
+        out_prefix = args.viz_out if args.viz_out else os.path.join(PROC_DIR, "github_collab_latest")
         visualize_cmd = [sys.executable, os.path.join("scripts", "visualize.py"), "--gexf", GEXF_OUT, "--out", out_prefix, "--title", f"GitHub Collaboration Network ({args.repo})"]
         if args.parallel:
             p = subprocess.Popen(visualize_cmd)
             procs.append(("visualize", p))
         else:
-            _run_cmd(visualize_cmd)
+            rc = _run_cmd(visualize_cmd)
+            if rc != 0:
+                print("Visualization step failed; exiting with error.", file=sys.stderr)
+                sys.exit(rc)
 
     # If parallel, wait for subprocesses to finish and report
     if procs:
         print("Waiting for parallel tasks to finish...")
+        failed = False
         for name, p in procs:
             ret = p.wait()
             if ret == 0:
                 print(f"{name} finished successfully")
             else:
                 print(f"{name} exited with code {ret}")
+                failed = True
+        if failed:
+            print("One or more parallel tasks failed. Exiting with non-zero status.", file=sys.stderr)
+            sys.exit(1)
 
 if __name__ == "__main__":
     main()
