@@ -25,6 +25,8 @@ except Exception as e:
 
 import networkx as nx
 import pandas as pd
+import subprocess
+import sys
 
 # Optional libs
 HAS_PYVIS = False
@@ -228,6 +230,9 @@ def main():
     parser.add_argument("--force_refresh", action="store_true", help="Force re-fetch from GitHub (ignore cached commits)")
     parser.add_argument("--stoplist", nargs="*", default=None, help="Additional filenames to ignore (space separated)")
     parser.add_argument("--make_html", action="store_true", help="Make interactive HTML via pyvis (if installed)")
+    parser.add_argument("--run_analysis", action="store_true", help="Run analysis script after pipeline (analyze_graph.py)")
+    parser.add_argument("--run_visualize", action="store_true", help="Run visualization script after pipeline (visualize.py)")
+    parser.add_argument("--parallel", action="store_true", help="If set, run analysis and visualization in parallel")
     parser.add_argument("--data-root", type=str, default="data", help="Data root directory (contains raw/ and processed/ subfolders)")
     args = parser.parse_args()
 
@@ -284,6 +289,45 @@ def main():
     print("  - summary JSON:", SUMMARY_JSON)
     if args.make_html and HAS_PYVIS:
         print("  - HTML:", PYVIS_HTML)
+
+    # Optionally run analysis and visualization scripts
+    def _run_cmd(cmd):
+        try:
+            print("Running:", " ".join(cmd))
+            res = subprocess.run(cmd, check=True)
+            print("Command finished:", " ".join(cmd))
+            return res.returncode
+        except subprocess.CalledProcessError as e:
+            print(f"Command failed ({' '.join(cmd)}): {e}", file=sys.stderr)
+            return e.returncode
+
+    procs = []
+    if args.run_analysis:
+        analysis_cmd = [sys.executable, os.path.join("scripts", "analyze_graph.py")]
+        if args.parallel:
+            p = subprocess.Popen(analysis_cmd)
+            procs.append(("analysis", p))
+        else:
+            _run_cmd(analysis_cmd)
+
+    if args.run_visualize:
+        out_prefix = os.path.join(PROC_DIR, "github_collab_latest")
+        visualize_cmd = [sys.executable, os.path.join("scripts", "visualize.py"), "--gexf", GEXF_OUT, "--out", out_prefix, "--title", f"GitHub Collaboration Network ({args.repo})"]
+        if args.parallel:
+            p = subprocess.Popen(visualize_cmd)
+            procs.append(("visualize", p))
+        else:
+            _run_cmd(visualize_cmd)
+
+    # If parallel, wait for subprocesses to finish and report
+    if procs:
+        print("Waiting for parallel tasks to finish...")
+        for name, p in procs:
+            ret = p.wait()
+            if ret == 0:
+                print(f"{name} finished successfully")
+            else:
+                print(f"{name} exited with code {ret}")
 
 if __name__ == "__main__":
     main()
