@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-11-10">
+  <meta lastmodifieddate="2025-11-11">
     <creator>NetworkX 3.5</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -13,306 +13,516 @@
       <attribute id="1" title="community" type="long" />
     </attributes>
     <nodes>
-      <node id="sharadmv" label="sharadmv">
+      <node id="basioli-k" label="basioli-k">
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="0" />
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="22" />
         </attvalues>
       </node>
-      <node id="zvikinoza" label="zvikinoza">
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="1" />
-        </attvalues>
-      </node>
-      <node id="chsigg" label="chsigg">
+      <node id="ybaturina" label="ybaturina">
         <attvalues>
           <attvalue for="0" value="1" />
-          <attvalue for="1" value="2" />
+          <attvalue for="1" value="9" />
         </attvalues>
       </node>
-      <node id="mraunak" label="mraunak">
+      <node id="loislo" label="loislo">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="ZixuanJiang" label="ZixuanJiang">
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="3" />
         </attvalues>
       </node>
-      <node id="mwhittaker" label="mwhittaker">
-        <attvalues>
-          <attvalue for="0" value="5" />
-          <attvalue for="1" value="4" />
-        </attvalues>
-      </node>
-      <node id="shawnwang18" label="shawnwang18">
-        <attvalues>
-          <attvalue for="0" value="3" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="WillFroom" label="WillFroom">
-        <attvalues>
-          <attvalue for="0" value="4" />
-          <attvalue for="1" value="2" />
-        </attvalues>
-      </node>
-      <node id="alekstheod" label="alekstheod">
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="mooskagh" label="mooskagh">
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="8" />
-        </attvalues>
-      </node>
-      <node id="nvgrw" label="nvgrw">
-        <attvalues>
-          <attvalue for="0" value="5" />
-          <attvalue for="1" value="4" />
-        </attvalues>
-      </node>
-      <node id="Moerafaat" label="Moerafaat">
-        <attvalues>
-          <attvalue for="0" value="3" />
-          <attvalue for="1" value="2" />
-        </attvalues>
-      </node>
-      <node id="Tixxx" label="Tixxx">
-        <attvalues>
-          <attvalue for="0" value="4" />
-          <attvalue for="1" value="4" />
-        </attvalues>
-      </node>
-      <node id="pifon2a" label="pifon2a">
-        <attvalues>
-          <attvalue for="0" value="2" />
-          <attvalue for="1" value="2" />
-        </attvalues>
-      </node>
-      <node id="majnemer" label="majnemer">
-        <attvalues>
-          <attvalue for="0" value="3" />
-          <attvalue for="1" value="4" />
-        </attvalues>
-      </node>
-      <node id="thomasjoerg" label="thomasjoerg">
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="10" />
-        </attvalues>
-      </node>
-      <node id="loislo" label="loislo">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="11" />
-        </attvalues>
-      </node>
-      <node id="akhilgoe" label="akhilgoe">
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="12" />
-        </attvalues>
-      </node>
       <node id="pkanwar23" label="pkanwar23">
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="13" />
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0" />
         </attvalues>
       </node>
-      <node id="mkuperst" label="mkuperst">
+      <node id="derdrdirk" label="derdrdirk">
         <attvalues>
           <attvalue for="0" value="0" />
-          <attvalue for="1" value="14" />
-        </attvalues>
-      </node>
-      <node id="tensorflower-gardener" label="tensorflower-gardener">
-        <attvalues>
-          <attvalue for="0" value="11" />
-          <attvalue for="1" value="4" />
-        </attvalues>
-      </node>
-      <node id="ermilovmaxim" label="ermilovmaxim">
-        <attvalues>
-          <attvalue for="0" value="2" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="beckerhe" label="beckerhe">
-        <attvalues>
-          <attvalue for="0" value="5" />
-          <attvalue for="1" value="6" />
+          <attvalue for="1" value="5" />
         </attvalues>
       </node>
       <node id="GleasonK" label="GleasonK">
         <attvalues>
           <attvalue for="0" value="1" />
-          <attvalue for="1" value="15" />
+          <attvalue for="1" value="6" />
         </attvalues>
       </node>
-      <node id="mrguenther" label="mrguenther">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="15" />
-        </attvalues>
-      </node>
-      <node id="ybaturina" label="ybaturina">
+      <node id="Tai78641" label="Tai78641">
         <attvalues>
           <attvalue for="0" value="0" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="hhb" label="hhb">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="akuegel" label="akuegel">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="ethanluoyc" label="ethanluoyc">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="Becker-ZH" label="Becker-ZH">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="11" />
+        </attvalues>
+      </node>
+      <node id="pifon2a" label="pifon2a">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="22" />
+        </attvalues>
+      </node>
+      <node id="sharadmv" label="sharadmv">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="13" />
+        </attvalues>
+      </node>
+      <node id="vwbaker" label="vwbaker">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="14" />
+        </attvalues>
+      </node>
+      <node id="jakeharmon8" label="jakeharmon8">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="15" />
+        </attvalues>
+      </node>
+      <node id="mwhittaker" label="mwhittaker">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="16" />
+        </attvalues>
+      </node>
+      <node id="chsigg" label="chsigg">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="22" />
+        </attvalues>
+      </node>
+      <node id="belitskiy" label="belitskiy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="WillFroom" label="WillFroom">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="22" />
+        </attvalues>
+      </node>
+      <node id="EusebioDM" label="EusebioDM">
+        <attvalues>
+          <attvalue for="0" value="4" />
           <attvalue for="1" value="9" />
         </attvalues>
       </node>
       <node id="hugomano" label="hugomano">
         <attvalues>
           <attvalue for="0" value="0" />
-          <attvalue for="1" value="5" />
+          <attvalue for="1" value="21" />
         </attvalues>
       </node>
-      <node id="EusebioDM" label="EusebioDM">
+      <node id="Moerafaat" label="Moerafaat">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="22" />
+        </attvalues>
+      </node>
+      <node id="alekstheod" label="alekstheod">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="23" />
+        </attvalues>
+      </node>
+      <node id="thomasjoerg" label="thomasjoerg">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="24" />
+        </attvalues>
+      </node>
+      <node id="jpienaar" label="jpienaar">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="25" />
+        </attvalues>
+      </node>
+      <node id="yashk2810" label="yashk2810">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="26" />
+        </attvalues>
+      </node>
+      <node id="ggawryal" label="ggawryal">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="27" />
+        </attvalues>
+      </node>
+      <node id="bixia1" label="bixia1">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="28" />
+        </attvalues>
+      </node>
+      <node id="shawnwang18" label="shawnwang18">
         <attvalues>
           <attvalue for="0" value="4" />
+          <attvalue for="1" value="29" />
+        </attvalues>
+      </node>
+      <node id="Tixxx" label="Tixxx">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="16" />
+        </attvalues>
+      </node>
+      <node id="pizzud" label="pizzud">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="akhilgoe" label="akhilgoe">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="majnemer" label="majnemer">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="tensorflower-gardener" label="tensorflower-gardener">
+        <attvalues>
+          <attvalue for="0" value="22" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="alexander-shaposhnikov" label="alexander-shaposhnikov">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="cantonios" label="cantonios">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="mrguenther" label="mrguenther">
+        <attvalues>
+          <attvalue for="0" value="1" />
           <attvalue for="1" value="6" />
         </attvalues>
       </node>
-      <node id="basioli-k" label="basioli-k">
+      <node id="mkuperst" label="mkuperst">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="mtsokol" label="mtsokol">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="12" />
+        </attvalues>
+      </node>
+      <node id="protobird-git" label="protobird-git">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="17" />
+        </attvalues>
+      </node>
+      <node id="beckerhe" label="beckerhe">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="deqiangc" label="deqiangc">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="18" />
+        </attvalues>
+      </node>
+      <node id="mooskagh" label="mooskagh">
         <attvalues>
           <attvalue for="0" value="2" />
-          <attvalue for="1" value="2" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="ermilovmaxim" label="ermilovmaxim">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="29" />
+        </attvalues>
+      </node>
+      <node id="mraunak" label="mraunak">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="19" />
+        </attvalues>
+      </node>
+      <node id="zvikinoza" label="zvikinoza">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="nvgrw" label="nvgrw">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="allanrenucci" label="allanrenucci">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="29" />
+        </attvalues>
+      </node>
+      <node id="ezhulenev" label="ezhulenev">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0" />
         </attvalues>
       </node>
       <node id="apivovarov" label="apivovarov">
         <attvalues>
           <attvalue for="0" value="1" />
-          <attvalue for="1" value="11" />
-        </attvalues>
-      </node>
-      <node id="akuegel" label="akuegel">
-        <attvalues>
-          <attvalue for="0" value="2" />
-          <attvalue for="1" value="6" />
+          <attvalue for="1" value="9" />
         </attvalues>
       </node>
     </nodes>
     <edges>
-      <edge source="chsigg" target="Moerafaat" id="0" weight="1.0">
+      <edge source="basioli-k" target="WillFroom" id="0" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="basioli-k" target="Moerafaat" id="1" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="ybaturina" target="akuegel" id="2" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="loislo" target="apivovarov" id="3" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="loislo" target="akuegel" id="4" weight="2.0">
         <attvalues>
           <attvalue for="2" value="0.25" />
           <attvalue for="3" value="2.0" />
         </attvalues>
       </edge>
-      <edge source="mwhittaker" target="tensorflower-gardener" id="1" weight="2.0">
+      <edge source="loislo" target="beckerhe" id="5" weight="1.0">
         <attvalues>
-          <attvalue for="2" value="0.5" />
-          <attvalue for="3" value="3.0" />
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
         </attvalues>
       </edge>
-      <edge source="mwhittaker" target="Tixxx" id="2" weight="3.0">
-        <attvalues>
-          <attvalue for="2" value="0.75" />
-          <attvalue for="3" value="4.0" />
-        </attvalues>
-      </edge>
-      <edge source="shawnwang18" target="ermilovmaxim" id="3" weight="1.0">
+      <edge source="pkanwar23" target="tensorflower-gardener" id="6" weight="2.0">
         <attvalues>
           <attvalue for="2" value="0.25" />
           <attvalue for="3" value="2.0" />
         </attvalues>
       </edge>
-      <edge source="shawnwang18" target="beckerhe" id="4" weight="2.0">
+      <edge source="pkanwar23" target="nvgrw" id="7" weight="1.0">
         <attvalues>
-          <attvalue for="2" value="0.5" />
-          <attvalue for="3" value="3.0" />
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
         </attvalues>
       </edge>
-      <edge source="WillFroom" target="pifon2a" id="5" weight="2.0">
+      <edge source="GleasonK" target="mrguenther" id="8" weight="1.0">
         <attvalues>
-          <attvalue for="2" value="0.5" />
-          <attvalue for="3" value="3.0" />
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
         </attvalues>
       </edge>
-      <edge source="WillFroom" target="basioli-k" id="6" weight="1.0">
+      <edge source="akuegel" target="EusebioDM" id="9" weight="1.0">
         <attvalues>
-          <attvalue for="2" value="0.25" />
-          <attvalue for="3" value="2.0" />
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
         </attvalues>
       </edge>
-      <edge source="WillFroom" target="Moerafaat" id="7" weight="1.0">
-        <attvalues>
-          <attvalue for="2" value="0.25" />
-          <attvalue for="3" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge source="nvgrw" target="EusebioDM" id="8" weight="1.0">
+      <edge source="akuegel" target="beckerhe" id="10" weight="2.0">
         <attvalues>
           <attvalue for="2" value="0.25" />
           <attvalue for="3" value="2.0" />
         </attvalues>
       </edge>
-      <edge source="nvgrw" target="tensorflower-gardener" id="9" weight="4.0">
+      <edge source="ethanluoyc" target="pizzud" id="11" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="pifon2a" target="WillFroom" id="12" weight="2.0">
+        <attvalues>
+          <attvalue for="2" value="0.25" />
+          <attvalue for="3" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="mwhittaker" target="tensorflower-gardener" id="13" weight="2.0">
+        <attvalues>
+          <attvalue for="2" value="0.25" />
+          <attvalue for="3" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="mwhittaker" target="Tixxx" id="14" weight="3.0">
+        <attvalues>
+          <attvalue for="2" value="0.375" />
+          <attvalue for="3" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="chsigg" target="WillFroom" id="15" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="chsigg" target="Moerafaat" id="16" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="belitskiy" target="majnemer" id="17" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="WillFroom" target="Moerafaat" id="18" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="EusebioDM" target="tensorflower-gardener" id="19" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="EusebioDM" target="nvgrw" id="20" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="EusebioDM" target="beckerhe" id="21" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="shawnwang18" target="ermilovmaxim" id="22" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="shawnwang18" target="allanrenucci" id="23" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="shawnwang18" target="beckerhe" id="24" weight="2.0">
+        <attvalues>
+          <attvalue for="2" value="0.25" />
+          <attvalue for="3" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Tixxx" target="tensorflower-gardener" id="25" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="akhilgoe" target="alexander-shaposhnikov" id="26" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </edge>
+      <edge source="majnemer" target="tensorflower-gardener" id="27" weight="8.0">
         <attvalues>
           <attvalue for="2" value="1.0" />
           <attvalue for="3" value="5.0" />
         </attvalues>
       </edge>
-      <edge source="Moerafaat" target="basioli-k" id="10" weight="1.0">
+      <edge source="tensorflower-gardener" target="mooskagh" id="28" weight="2.0">
         <attvalues>
           <attvalue for="2" value="0.25" />
           <attvalue for="3" value="2.0" />
         </attvalues>
       </edge>
-      <edge source="Tixxx" target="tensorflower-gardener" id="11" weight="1.0">
+      <edge source="tensorflower-gardener" target="nvgrw" id="29" weight="5.0">
         <attvalues>
-          <attvalue for="2" value="0.25" />
-          <attvalue for="3" value="2.0" />
+          <attvalue for="2" value="0.625" />
+          <attvalue for="3" value="3.5" />
         </attvalues>
       </edge>
-      <edge source="majnemer" target="tensorflower-gardener" id="12" weight="3.0">
+      <edge source="tensorflower-gardener" target="ezhulenev" id="30" weight="1.0">
         <attvalues>
-          <attvalue for="2" value="0.75" />
-          <attvalue for="3" value="4.0" />
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
         </attvalues>
       </edge>
-      <edge source="loislo" target="apivovarov" id="13" weight="1.0">
+      <edge source="beckerhe" target="ermilovmaxim" id="31" weight="1.0">
         <attvalues>
-          <attvalue for="2" value="0.25" />
-          <attvalue for="3" value="2.0" />
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
         </attvalues>
       </edge>
-      <edge source="tensorflower-gardener" target="EusebioDM" id="14" weight="1.0">
+      <edge source="beckerhe" target="allanrenucci" id="32" weight="1.0">
         <attvalues>
-          <attvalue for="2" value="0.25" />
-          <attvalue for="3" value="2.0" />
+          <attvalue for="2" value="0.125" />
+          <attvalue for="3" value="1.5" />
         </attvalues>
       </edge>
-      <edge source="ermilovmaxim" target="beckerhe" id="15" weight="1.0">
+      <edge source="ermilovmaxim" target="allanrenucci" id="33" weight="8.0">
         <attvalues>
-          <attvalue for="2" value="0.25" />
-          <attvalue for="3" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge source="beckerhe" target="EusebioDM" id="16" weight="1.0">
-        <attvalues>
-          <attvalue for="2" value="0.25" />
-          <attvalue for="3" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge source="beckerhe" target="akuegel" id="17" weight="1.0">
-        <attvalues>
-          <attvalue for="2" value="0.25" />
-          <attvalue for="3" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge source="GleasonK" target="mrguenther" id="18" weight="1.0">
-        <attvalues>
-          <attvalue for="2" value="0.25" />
-          <attvalue for="3" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge source="EusebioDM" target="akuegel" id="19" weight="1.0">
-        <attvalues>
-          <attvalue for="2" value="0.25" />
-          <attvalue for="3" value="2.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </edge>
     </edges>

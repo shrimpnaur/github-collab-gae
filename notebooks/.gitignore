@@ -1,0 +1,54 @@
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Data (raw and processed outputs)
+data/raw/
+data/processed/
+
+# Model and embedding artifacts
+*.pt
+*.pth
+*.npy
+
+# Visualizations
+*.png
+*.svg
+*.pdf
+
+# Generated outputs (keep code only)
+*.csv
+
+# IDE and OS
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+
+# Logs and temp
+*.log
+.env
+.env.local
+
+# Drafts (experimental code)
+drafts/
+
+# Notebooks helpers and old scripts (consolidated to top-level `scripts/`)
+notebooks/scripts/
+notebooks/data/
+
+# Keep generated processed artifacts ignored (explicit patterns)
+data/processed/*.pt
+data/processed/*.pth
+data/processed/*.npy
+data/processed/*.png
+data/processed/*.svg
+data/processed/*.json

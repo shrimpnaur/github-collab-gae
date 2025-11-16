@@ -1,28 +1,27 @@
 {
-  "repo": "oppia/oppia",
-  "commits_sampled": 100,
-  "nodes": 19,
-  "edges": 60,
-  "top5_degree": [
+  "nodes": 51,
+  "edges": 34,
+  "louvain_modularity": 0.6195915076592313,
+  "top5_by_degree": [
     [
-      "Helper2020",
-      229
+      "tensorflower-gardener",
+      22.0
     ],
     [
-      "jayam04",
-      114
+      "ermilovmaxim",
+      10.0
     ],
     [
-      "HardikGoyal2003",
-      83
+      "allanrenucci",
+      10.0
     ],
     [
-      "NITISH084",
-      81
+      "majnemer",
+      9.0
     ],
     [
-      "seanlip",
-      78
+      "beckerhe",
+      8.0
     ]
   ]
 }

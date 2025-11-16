@@ -1,27 +1,27 @@
 {
-  "nodes": 30,
-  "edges": 20,
-  "louvain_modularity": 0.6022222222222222,
+  "nodes": 51,
+  "edges": 34,
+  "louvain_modularity": 0.6195915076592313,
   "top5_by_degree": [
     [
       "tensorflower-gardener",
-      11.0
+      22.0
     ],
     [
-      "mwhittaker",
-      5.0
+      "allanrenucci",
+      10.0
+    ],
+    [
+      "ermilovmaxim",
+      10.0
+    ],
+    [
+      "majnemer",
+      9.0
     ],
     [
       "beckerhe",
-      5.0
-    ],
-    [
-      "nvgrw",
-      5.0
-    ],
-    [
-      "WillFroom",
-      4.0
+      8.0
     ]
   ]
 }
